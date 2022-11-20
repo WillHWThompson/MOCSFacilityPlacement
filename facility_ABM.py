@@ -1,3 +1,8 @@
+"""
+facility_abm.py
+
+file contains all the functions to run the facility placement agent based model
+"""
 import numpy as np 
 import pandas as pd 
 import geopandas as gpd
@@ -6,6 +11,8 @@ from shapely.geometry import Point
 from sklearn.neighbors import NearestNeighbors
 from shapely.ops import nearest_points
 from copy import deepcopy
+
+
 
 
 
