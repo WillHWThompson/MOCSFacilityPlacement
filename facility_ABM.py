@@ -38,9 +38,12 @@ random_points_within_polygon(); raturns a list of n points within a given polygo
 """
 def random_points_within_polygon(polygon,number):
     points = []
+
+    #generate points within the polygons bounding box
     minx,miny,maxx,maxy = polygon.bounds
     while len(points) <  number:
         pnt = Point(np.random.uniform(minx,maxx),np.random.uniform(miny,maxy))
+        #check if points fall within a polygon
         if polygon.contains(pnt):
             points.append(pnt)
     return gpd.GeoDataFrame(geometry=points)
@@ -72,13 +75,13 @@ returns:
 """
 def calc_facility_distance(df1,df2,geom1_col='geometry',geom2_col="geometry"):
     #calculate the nearest facilty to each member of the population
-    nearest_fac_series = gdf_pop.apply(nearest,df2=df2,geom1_col=geom1_col,axis = 1)
+    nearest_fac_series = df1.apply(nearest,df2=df2,geom1_col=geom1_col,axis = 1)
     #reformat nearest facility data into a df
     nearest_fac_df = nearest_fac_series.reset_index().rename(columns = {0:"nearest_fac"}).set_geometry("nearest_fac")
     #calculate the distance between each individual and the nearest facility
-    distance_df=gdf_pop['geometry'].distance(nearest_fac_df).reset_index().rename(columns = {0:"distance"})
+    distance_df=df1['geometry'].distance(nearest_fac_df).reset_index().rename(columns = {0:"distance"})
     #join all data and return
-    concat_df = pd.concat([gdf_pop,nearest_fac_df,distance_df],axis = 1).drop("index",axis = 1)
+    concat_df = pd.concat([df1,nearest_fac_df,distance_df],axis = 1).drop("index",axis = 1)
     return concat_df
 
 """
@@ -97,16 +100,15 @@ move_agents: generate a new facility location df with a random subset of agents 
     output:
         fac_placement_df_test<GeoDataFrame>: a df with the location of our facilites with a subset moved to new random locations
 """
-def move_agents(my_fac_placements_df,num_replacements):
-    fac_placements_df_test = deepcopy(fac_placements_df)#deepcopy the facility placement list
-    num_fac = fac_placements_df.shape[0]#get the number of facilities
+def move_agents(my_fac_placements_df,border,num_replacements):
+    fac_placements_df_test = deepcopy(my_fac_placements_df)#deepcopy the facility placement list
+    num_fac = my_fac_placements_df.shape[0]#get the number of facilities
     #get new trial facility locations
-    new_points = random_points_within_polygon(us_border,num_replacements)
+    new_points = random_points_within_polygon(border,num_replacements)
     #pick facilities to move
     inds_to_change = np.random.choice(np.arange(num_fac),num_replacements)
     #iterate through the list of possibilites, change as needed
     for i,ind in enumerate(inds_to_change):
-        print(f"i:f{i}")
         fac_placements_df_test.loc[ind,'geometry'] = new_points.geometry.values[i]
     return fac_placements_df_test
     
