@@ -7,12 +7,38 @@ import numpy as np
 import pandas as pd 
 import geopandas as gpd
 import shapely as shp
+import time
 from shapely.geometry import Point
 from sklearn.neighbors import NearestNeighbors
 from shapely.ops import nearest_points
 from copy import deepcopy
+from multiprocessing import Pool,freeze_support
+from functools import partial
 
 
+
+"""
+
+"""
+def parallelize(data,func,num_processes=8):
+
+    data_split = np.array_split(data,num_processes)
+    pool = Pool(num_processes)
+
+    #data = pd.concat(pool.map(func,data_split))
+    data = pd.concat(pool.map(func,data_split))
+
+    pool.close()
+    pool.join()
+    return data
+
+def run_on_subset(func,df2,geom1_col,data_subset):
+    applied_data = data_subset.apply(func,df2 = df2,geom1_col = geom1_col,axis=1)
+    return applied_data
+
+
+def paralellize_on_rows(data,func,df2,geom1_col,num_processes=8):
+    return parallelize(data,partial(run_on_subset,func,df2,geom1_col),num_processes)
 
 
 
@@ -33,7 +59,7 @@ random_points_within_polygon(); raturns a list of n points within a given polygo
     inputs: 
         polygon<Shapley.geometry.polygon>: a polygon from which to generate points inaside of 
         number<int>: the number of points to generate
-    output:
+   Output:
         points<list{Shapley.geometry.Points}: a list of points randomly distributed within the polygon
 """
 def random_points_within_polygon(polygon,number):
@@ -65,7 +91,7 @@ def get_distance(row,geom1_col,geom2_col):
 
 """
 calc_facility_distance(): takes in a df of population and facility placements, returns a df the nearest facility to each individual and the distance
-input:
+inpukt:
         df1<GeoDataFrame>: a datafame with Shapley.geometry.Point objects for each individual in the population
         df2<GeoDataFrame>: a datafame with Shapley.geometry.Point objects for each facility
         geom1_col<str>: the column in <df1> that contains the point objects
@@ -75,7 +101,17 @@ returns:
 """
 def calc_facility_distance(df1,df2,geom1_col='geometry',geom2_col="geometry"):
     #calculate the nearest facilty to each member of the population
+     
+    start_time = time.time()
     nearest_fac_series = df1.apply(nearest,df2=df2,geom1_col=geom1_col,axis = 1)
+    time1 = time.time()-start_time
+    
+    start_time = time.time()
+    nearest_fac_series = paralellize_on_rows(df1,nearest,df2=df2,geom1_col=geom1_col)
+    time2 = time.time()-start_time
+
+    print("time1:{},time2:{}".format(time1,time2))
+
     #reformat nearest facility data into a df
     nearest_fac_df = nearest_fac_series.reset_index().rename(columns = {0:"nearest_fac"}).set_geometry("nearest_fac")
     #calculate the distance between each individual and the nearest facility
@@ -96,6 +132,7 @@ def objective_function(df,value_col,groupby_col,beta=1):
 move_agents: generate a new facility location df with a random subset of agents moved to new locations
     inputs:
         my_fac_placement<GeoDataFrame>: a geodataframe with the locations of our facilties
+
         num_replacements<int>: the number of agents to move
     output:
         fac_placement_df_test<GeoDataFrame>: a df with the location of our facilites with a subset moved to new random locations
