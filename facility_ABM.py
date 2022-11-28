@@ -102,9 +102,9 @@ returns:
 def calc_facility_distance(df1,df2,geom1_col='geometry',geom2_col="geometry"):
     #calculate the nearest facilty to each member of the population
      
-    start_time = time.time()
-    nearest_fac_series = df1.apply(nearest,df2=df2,geom1_col=geom1_col,axis = 1)
-    time1 = time.time()-start_time
+    #start_time = time.time()
+    #nearest_fac_series = df1.apply(nearest,df2=df2,geom1_col=geom1_col,axis = 1)
+    #time1 = time.time()-start_time
     
     start_time = time.time()
     nearest_fac_series = paralellize_on_rows(df1,nearest,df2=df2,geom1_col=geom1_col)
