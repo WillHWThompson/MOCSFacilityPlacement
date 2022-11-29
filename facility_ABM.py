@@ -150,7 +150,7 @@ def calc_facility_distance(df1,df2,DISTANCE_EPSG = 3857):
 
     #convert coordinates to a flat projection for mercator
     df1 = df1.to_crs(DISTANCE_EPSG)
-    df1 = df2.to_crs(DISTANCE_EPSG)
+    df2 = df2.to_crs(DISTANCE_EPSG)
      
     lat_lon_arr = np.stack(get_coords_from_shape(df2),axis = 0)#generate lat long pairs from Point objects
     x= lat_lon_arr[:,0]

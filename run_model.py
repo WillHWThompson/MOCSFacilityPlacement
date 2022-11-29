@@ -115,7 +115,7 @@ def main(
     for i in range(num_steps):#for each timestep  
         print("step: {}".format(i))
         #generate a test facility placement by moving an agent
-        test_fac_placements_df = move_agents(fac_placements_df,us_legal_border,1)
+        test_fac_placements_df = move_agents(fac_placements_df,us_legal_border,10)
         #calculate the distances for this new facility placement
         test_fac_pop_dist_df = calc_facility_distance(gdf_pop,test_fac_placements_df)
         #calculate the objective function for this new facility placement 
@@ -127,11 +127,13 @@ def main(
             if  test_objective_function_val < objective_function_val:#if the new facility placement has a lower objectve function
                 fac_placements_df = test_fac_placements_df#use the new facility placement instead of the old one
                 print("Replacing old facility list with score {} with new facility list with score {}".format(objective_function_val,test_objective_function_val))
+                objective_function_val = test_objective_function_val
     
         elif EXTREMUM == "MAX":
             if  test_objective_function_val > objective_function_val:#if the new facility placement has a higer objectve function
                 fac_placements_df = test_fac_placements_df#use the new facility placement instead of the old one
                 print("Replacing old facility list with score {} with new facility list with score {}".format(objective_function_val,test_objective_function_val))
+                objective_function_val = test_objective_function_val
     
     if legal_states_only:
         states = "legal"
