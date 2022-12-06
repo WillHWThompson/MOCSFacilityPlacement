@@ -3,6 +3,7 @@ def warn(*args, **kwargs):
 import warnings
 warnings.warn = warn
 
+import os
 #import gen_population as pop
 import facility_ABM
 import pandas as pd
@@ -61,6 +62,12 @@ def get_parser():
         "--pop_size",
         type=int,
         default=-1#if set to -1, the full population will be used
+    )
+
+    parser.add_argument(
+        "--out_path",
+        type=str,
+        default=-"./"#if set to -1, the full population will be used
     )
     return parser
 
@@ -153,11 +160,16 @@ def main(
         states = "legal"
     else:
         states = "all"
-    out_path = out_path / f"{states}_{num_steps}steps_placement.parq"
-    fac_placements_df.to_parquet(out_path)
+    file_name =  f"{states}_{num_steps}steps_placement.parq"
+    out_file_name = os.path.join(out_path,file_name)
+    fac_placements_df.to_parquet(out_file_name)
+    
     
     objective_function_df = pd.DataFrame(objective_function_list)
-    out_path_of = out_path / f"{states}_{num_steps}steps_placement.csv"
+
+    df_file_name =  f"{states}_{num_steps}steps_placement.csv"
+    df_out_file_name = os.path.join(out_path,df_file_name)
+    objective_function_df.to_csv(df_out_file_name)
     
     
 
