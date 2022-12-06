@@ -67,7 +67,7 @@ def get_parser():
     parser.add_argument(
         "--out_path",
         type=str,
-        default=-"./"#if set to -1, the full population will be used
+        default="./"#if set to -1, the full population will be used
     )
     return parser
 
@@ -76,7 +76,8 @@ def main(
     n_facilities: int = 1070,
     num_steps: int = 4,
     legal_states_only: bool = True,
-    out_path: Path = Path("./"),
+    #out_path: Path = Path("./"),
+    out_path: str = "./",
     pop_size: int = -1 
 ):
     """
