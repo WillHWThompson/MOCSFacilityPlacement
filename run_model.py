@@ -110,8 +110,11 @@ def main(
     
     #calculate the distance to the nearest facility
     fac_pop_dist_df = calc_facility_distance(gdf_pop,fac_placements_df)
-    objective_function_val = objective_function(fac_pop_dist_df,'distance','nearest_fac')
+    objective_function_val = objective_function_ind(fac_pop_dist_df,'distance','nearest_fac')
+
+    objective_function_reindex = objective_function_val.reindex(range(n_facilities),fill_value = np.nan)
     
+    objective_function_list = []
     for i in range(num_steps):#for each timestep  
         print("step: {}".format(i))
         #generate a test facility placement by moving an agent
@@ -119,21 +122,32 @@ def main(
         #calculate the distances for this new facility placement
         test_fac_pop_dist_df = calc_facility_distance(gdf_pop,test_fac_placements_df)
         #calculate the objective function for this new facility placement 
-        test_objective_function_val = objective_function(test_fac_pop_dist_df,'distance','nearest_fac')
-        print("objective_function: {}".format(objective_function_val))
-    
+        test_objective_function_val = objective_function_ind(test_fac_pop_dist_df,'distance','nearest_fac')
+        test_objective_function_reindex = test_objective_function_val.reindex(range(n_facilities),fill_value = np.nan)
+
+
+
+        
+        to_move = test_objective_function_reindex > objective_function_reindex
+        fac_placements_df.loc[to_move] = test_fac_placements_df[to_move] 
         #evaluate the agent bahvaior - if it is better than the original, we can do something with that
         if EXTREMUM == "MIN":#if we are minimizing the objective function
-            if  test_objective_function_val < objective_function_val:#if the new facility placement has a lower objectve function
-                fac_placements_df = test_fac_placements_df#use the new facility placement instead of the old one
-                print("Replacing old facility list with score {} with new facility list with score {}".format(objective_function_val,test_objective_function_val))
-                objective_function_val = test_objective_function_val
-    
+            to_move = test_objective_function_reindex < objective_function_reindex
+            print("moving {} agents".format(to_move.astype(int).sum()))
+            fac_placements_df.loc[to_move] = test_fac_placements_df[to_move] 
+
         elif EXTREMUM == "MAX":
-            if  test_objective_function_val > objective_function_val:#if the new facility placement has a higer objectve function
-                fac_placements_df = test_fac_placements_df#use the new facility placement instead of the old one
-                print("Replacing old facility list with score {} with new facility list with score {}".format(objective_function_val,test_objective_function_val))
-                objective_function_val = test_objective_function_val
+            to_move = test_objective_function_reindex > objective_function_reindex
+            print("moving {} agents".format(to_move.astype(int).sum()))
+            fac_placements_df.loc[to_move] = test_fac_placements_df[to_move] 
+
+       #record keeping 
+        objective_function_val.loc[to_move] = test_objective_function_val.loc[to_move]
+        total_objective_function = objective_function_val.sum()
+        print("total objective_function: {}".format(total_objective_function))
+        objective_function_list.append({"time_step":i,"total_objective_function":total_objective_function})
+
+
     
     if legal_states_only:
         states = "legal"
@@ -141,6 +155,10 @@ def main(
         states = "all"
     out_path = out_path / f"{states}_{num_steps}steps_placement.parq"
     fac_placements_df.to_parquet(out_path)
+    
+    objective_function_df = pd.DataFrame(objective_function_list)
+    out_path_of = out_path / f"{states}_{num_steps}steps_placement.csv"
+    
     
 
 if __name__=="__main__":

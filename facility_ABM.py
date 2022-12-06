@@ -4,7 +4,7 @@ facility_abm.py
 file contains all the functions to run the facility placement agent based model
 """
 import numpy as np 
-import pandas as pd 
+#import pandas as pd 
 import geopandas as gpd
 import shapely as shp
 import time
@@ -147,7 +147,7 @@ returns:
 """
 
 def calc_facility_distance(df1,df2,DISTANCE_EPSG = 3857):
-
+    print("changed")
     #convert coordinates to a flat projection for mercator
     df1 = df1.to_crs(DISTANCE_EPSG)
     df2 = df2.to_crs(DISTANCE_EPSG)
@@ -164,7 +164,7 @@ def calc_facility_distance(df1,df2,DISTANCE_EPSG = 3857):
     #merged nerest neighbor info with facility info
     df1['distance'] = dd
     df1['nearest_fac'] = ii
-    df_fac_pop_merged = df1.merge(df2,left_on = 'nearest_fac',right_on = "index",suffixes=('_pop','_fac'))
+    df_fac_pop_merged = df1.merge(df2,left_on = 'nearest_fac',right_on = "index",suffixes=('_pop','_fac'),how = 'left')
     df_fac_pop_merged.drop(['index_pop','index_fac'],axis =1,inplace=True)
     df_fac_pop_merged.rename(columns={'geometry_pop':'geometry','geometry_fac':'nearest_fac'})
     return df_fac_pop_merged
@@ -178,6 +178,18 @@ def objective_function(df,value_col,groupby_col,beta=1):
     #df = df.groupby(df[groupby_col].to_wkt()).agg(total_fac_weighted_dist = ('weighted_dist',sum))
     df = df.groupby(df[groupby_col]).agg(total_fac_weighted_dist = ('weighted_dist',sum))
     return df['total_fac_weighted_dist'].sum()
+
+
+"""
+calculate the objective function(dist^beta) for each facility. return the result as a dataframe
+"""
+def objective_function_ind(df,value_col,groupby_col,beta=1):
+    df['weighted_dist'] = df[value_col]**beta#take the distance to an exponential
+    #df = df.groupby(df[groupby_col].to_wkt()).agg(total_fac_weighted_dist = ('weighted_dist',sum))
+    df = df.groupby(df[groupby_col]).agg(total_fac_weighted_dist = ('weighted_dist',sum))
+    return df['total_fac_weighted_dist']
+
+
 
 """
 move_agents: generate a new facility location df with a random subset of agents moved to new locations
