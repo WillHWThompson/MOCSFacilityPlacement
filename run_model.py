@@ -24,6 +24,7 @@ from shapely.errors import ShapelyDeprecationWarning
 warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
 import shapely as shp
 from shapely.geometry import Point
+from matplotlib import pyplot as plt
 
 from sklearn.neighbors import NearestNeighbors
 from shapely.ops import nearest_points
@@ -33,7 +34,6 @@ from facility_ABM import *
 from multiprocessing import Pool,freeze_support
 from pathlib import Path
 
-n_facilities = 1070
 EPSG_LON_LAT = 4326 # the EPSG which represents pairs of lon lat points
 
 
@@ -49,7 +49,7 @@ def get_parser():
     parser.add_argument(
         "--num_steps",
         type=int,
-        default=2
+        default=1
     )
     parser.add_argument(
         "--legal_states_only",
@@ -62,6 +62,11 @@ def get_parser():
         type=int,
         default=-1#if set to -1, the full population will be used
     )
+    parser.add_argument(
+        "--move_type",
+        type=str,
+        default='pres_weighted', # 'random', 'pres_weighted'
+    )
     return parser
 
 
@@ -70,7 +75,10 @@ def main(
     num_steps: int = 4,
     legal_states_only: bool = True,
     out_path: Path = Path("./"),
-    pop_size: int = -1 
+    pop_size: int = -1,
+    beta: int = 1,
+    move_type: str = 'random',  # 'pres_weighted'
+    min_portion: float = 0, # Threshold for a weighted county to be included
 ):
     """
     GLOBAL VARIABLES
@@ -78,12 +86,16 @@ def main(
     COUNTY_SHP_FILE = "data/UScounties/UScounties.shp"
     BANNED_STATES = ['Arkansas','Alabama','Idaho','Kentucky','Louisiana','Kentucky','Mississippi','Missouri','Oklahoma','South Dakota','Tenesee','Texas','West Virginia','Wisconsin']
     EPSG = 4
-    EXTREMUM = "MIN"
+    if beta <= 0:
+        EXTREMUM = "MAX"
+    else:
+        EXTREMUM = "MIN"
     """"
     init the model for a single facility
     """
     print("loading pop point data...")
     df_pop = pd.read_csv("data/simulated_pop_points.csv")
+    print(df_pop)
     gdf_pop = gpd.GeoDataFrame(df_pop,geometry = gpd.points_from_xy(df_pop.lon,df_pop.lat)).rename(columns = {"Unnamed: 0":"index"}).set_crs(EPSG_LON_LAT)#.rename(columns ={" Unnamed: 0",'index'})#generate initial facility placement
     print(f"population size: {gdf_pop.size}")
     full_pop_size = gdf_pop.shape[0]
@@ -96,30 +108,42 @@ def main(
     print("loaded population points containing {} points".format(pop_size))
 
     #load state boundaries
-    df_state = load_state_bounds(COUNTY_SHP_FILE)
+    if move_type == 'random':
+        bounds = load_state_bounds(COUNTY_SHP_FILE)
+    elif move_type == 'pres_weighted':
+        bounds = load_county_bounds(COUNTY_SHP_FILE)
+        weights = pres_vote_weight(min_portion=min_portion)
+
     if legal_states_only:
-        df_state_legal = df_state[~df_state['STATE_NAME'].isin(BANNED_STATES)]
+        df_state_legal = bounds[~df_state['STATE_NAME'].isin(BANNED_STATES)]
     else:
-        df_state_legal = df_state
+        df_state_legal = bounds
     #pull out polygon
     # us_border = df_state.dissolve().geometry.values[0]#extract shapley polygons from dataframe
     
     #cut down to subset of states with legalized facilites
     us_legal_border = df_state_legal.dissolve().geometry.values[0]#extract shapley polygon from dataframe
-    fac_placements_df = random_points_within_polygon(us_legal_border,n_facilities).reset_index()#
-    
+    if move_type == 'pres_weighted':
+        fac_placements_df = random_points_weighted(df_state_legal, n_facilities, weights).reset_index()
+    else:
+        fac_placements_df = random_points_within_polygon(us_legal_border,n_facilities).reset_index()#
+
+    print(fac_placements_df)
     #calculate the distance to the nearest facility
     fac_pop_dist_df = calc_facility_distance(gdf_pop,fac_placements_df)
-    objective_function_val = objective_function(fac_pop_dist_df,'distance','nearest_fac')
+    objective_function_val = objective_function(fac_pop_dist_df,'distance','nearest_fac', beta)
     
     for i in range(num_steps):#for each timestep  
         print("step: {}".format(i))
         #generate a test facility placement by moving an agent
-        test_fac_placements_df = move_agents(fac_placements_df,us_legal_border,10)
+        if move_type == 'random':
+            test_fac_placements_df = move_agents(fac_placements_df,us_legal_border,1)
+        elif move_type == 'pres_weighted':
+            test_fac_placements_df = move_agents_weighted(fac_placements_df,df_state_legal,1, weights)
         #calculate the distances for this new facility placement
         test_fac_pop_dist_df = calc_facility_distance(gdf_pop,test_fac_placements_df)
         #calculate the objective function for this new facility placement 
-        test_objective_function_val = objective_function(test_fac_pop_dist_df,'distance','nearest_fac')
+        test_objective_function_val = objective_function(test_fac_pop_dist_df,'distance','nearest_fac', beta)
         print("objective_function: {}".format(objective_function_val))
     
         #evaluate the agent bahvaior - if it is better than the original, we can do something with that
@@ -139,8 +163,12 @@ def main(
         states = "legal"
     else:
         states = "all"
-    out_path = out_path / f"{states}_{num_steps}steps_placement.parq"
-    fac_placements_df.to_parquet(out_path)
+    out = out_path / f"{states}_{num_steps}steps_{move_type}40.parq"
+    print(out)
+    fac_placements_df.to_parquet(out)
+    fac_placements_df.plot()
+    plt.savefig(out_path / "fac_placements_df.png")
+    print(objective_function_val)
     
 
 if __name__=="__main__":

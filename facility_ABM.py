@@ -55,8 +55,17 @@ def load_state_bounds(COUNTY_SHP_FILE,EPSG=4326):
     df_state = df_county.dissolve(by = "STATE_NAME")['geometry'].reset_index()#[['STATE_NAME','geometry']]#aggregate by stateI
     return df_state
 
+def load_county_bounds(COUNTY_SHP_FILE,EPSG=4326):
+    df_county = gpd.read_file(COUNTY_SHP_FILE)
+    df_county = df_county.to_crs(f"EPSG:{EPSG}")
+    df_county = df_county[~df_county['STATE_NAME'].isin(['Alaska','Hawaii'])]#remove Alaska and Hawai
+    df_county = df_county.dissolve(by = "FIPS")['geometry'].reset_index()#[['STATE_NAME','geometry']]#aggregate by stateI
+    df_county['FIPS'] = pd.to_numeric(df_county['FIPS'])
+    return df_county
+
+
 """
-random_points_within_polygon(); raturns a list of n points within a given polygon
+random_points_within_polygon(); returns a list of n points within a given polygon
     inputs: 
         polygon<Shapley.geometry.polygon>: a polygon from which to generate points inaside of 
         number<int>: the number of points to generate
@@ -72,6 +81,27 @@ def random_points_within_polygon(polygon,number,EPSG=4326):
         #check if points fall within a polygon
         if polygon.contains(pnt):
             points.append(pnt)
+    gdf =  gpd.GeoDataFrame(geometry=points).set_crs(EPSG)
+    return gdf
+
+def random_points_weighted(border_df,number,weights_df,EPSG=4326):
+    points = []
+    while len(points) <  number:
+        county_fips = np.random.choice(weights_df.index, p=weights_df.weight)
+        bdf = border_df[border_df.FIPS == county_fips]
+        if len(bdf) == 0:
+            print(f"MISSING county: {county_fips}")
+            continue
+        border = bdf.dissolve().geometry.values[0]
+        #get new trial facility locations
+        minx,miny,maxx,maxy = border.bounds
+        while True:
+            pnt = Point(np.random.uniform(minx,maxx),np.random.uniform(miny,maxy))
+            #check if points fall within a polygon
+            if border.contains(pnt):
+                points.append(pnt)
+                break
+        
     gdf =  gpd.GeoDataFrame(geometry=points).set_crs(EPSG)
     return gdf
 
@@ -201,4 +231,49 @@ def move_agents(my_fac_placements_df,border,num_replacements):
     return fac_placements_df_test
     
 
+def pres_vote_weight(min_portion=.4):
+    pres = pd.read_csv('./data/countypres-2020.csv')
+    # Correcting for missing FIPS for D.C. (https://dc.postcodebase.com/county/11001)
+    pres.loc[pres['state_po']=='DC', 'county_fips'] = 11001
+    # The below FIPS is not valid for Missouri. Kansas City, MO, is mostly in Jackson County
+    # Further investigation is needed to determine what the below data point is
+    pres = pres[pres.county_fips != 36000]
+    # Filtering out a Rhode Island federal precinct which is missing an FIPS
+    pres = pres[~pres['county_fips'].isna()]
+    aia = pd.read_csv('./data/bas21_codes_aia.csv')
+    aia['ex_FIPS'] = aia['State FIPS'].astype('str') + aia['County FIPS'].astype('str')
+    aia['ex_FIPS'] = pd.to_numeric(aia['ex_FIPS'])
+    aia.set_index(['ex_FIPS'], inplace=True)
+    pres = pres[~pres['state'].isin(['ALASKA','HAWAII'])]
+    dems = pres[pres.party == 'DEMOCRAT']
+    dems['portion'] = dems['candidatevotes'] / dems['totalvotes']
+    dems.set_index(['county_fips'], inplace=True)
+    
+    # Removing Native American counties from weighting dataframe
+    dems = dems.join(aia, how='left')
+    dems = dems[dems['BAS ID'].isna()]
+    print(len(dems))
+    dems = dems[dems['portion'] >= min_portion]
+    dems['weight'] = dems['portion'] / sum(dems['portion'])
+    print(len(dems))
+    #dems = dems[['weight']]
+    return dems
 
+# np.random.choice. Pass in list of weights along with list of choices
+def move_agents_weighted(my_fac_placements_df,border_df,num_replacements, weights_df):
+    county_fips = np.random.choice(weights_df.index, p=weights_df.weight)
+    border_df = border_df[border_df.FIPS == county_fips]
+    if len(border_df) == 0:
+        print(f"county: {county_fips}")
+        return my_fac_placements_df
+    border = border_df.dissolve().geometry.values[0]
+    fac_placements_df_test = deepcopy(my_fac_placements_df)#deepcopy the facility placement list
+    num_fac = my_fac_placements_df.shape[0]#get the number of facilities
+    #get new trial facility locations
+    new_points = random_points_within_polygon(border,num_replacements)
+    #pick facilities to move
+    inds_to_change = np.random.choice(np.arange(num_fac),num_replacements)
+    #iterate through the list of possibilites, change as needed
+    for i,ind in enumerate(inds_to_change):
+        fac_placements_df_test.loc[ind,'geometry'] = new_points.geometry.values[i]
+    return fac_placements_df_test
