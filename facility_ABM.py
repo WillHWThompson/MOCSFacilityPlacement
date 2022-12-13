@@ -16,7 +16,9 @@ from multiprocessing import Pool,freeze_support
 from functools import partial
 import swifter
 from sklearn.neighbors import BallTree, KDTree
+from matplotlib import pyplot as plt
 
+BANNED_STATES = ['Arkansas','Alabama','Idaho','Kentucky','Louisiana','Kentucky','Mississippi','Missouri','Oklahoma','South Dakota','Tenesee','Texas','West Virginia','Wisconsin']
 
 """
 
@@ -55,10 +57,12 @@ def load_state_bounds(COUNTY_SHP_FILE,EPSG=4326):
     df_state = df_county.dissolve(by = "STATE_NAME")['geometry'].reset_index()#[['STATE_NAME','geometry']]#aggregate by stateI
     return df_state
 
-def load_county_bounds(COUNTY_SHP_FILE,EPSG=4326):
+def load_county_bounds(COUNTY_SHP_FILE,EPSG=4326, legal_only=False):
     df_county = gpd.read_file(COUNTY_SHP_FILE)
     df_county = df_county.to_crs(f"EPSG:{EPSG}")
     df_county = df_county[~df_county['STATE_NAME'].isin(['Alaska','Hawaii'])]#remove Alaska and Hawai
+    if legal_only:
+        df_county = df_county[~df_county['STATE_NAME'].isin(BANNED_STATES)]
     df_county = df_county.dissolve(by = "FIPS")['geometry'].reset_index()#[['STATE_NAME','geometry']]#aggregate by stateI
     df_county['FIPS'] = pd.to_numeric(df_county['FIPS'])
     return df_county
@@ -231,8 +235,12 @@ def move_agents(my_fac_placements_df,border,num_replacements):
     return fac_placements_df_test
     
 
-def pres_vote_weight(min_portion=.4):
+def pres_vote_weight(min_portion=.4, legal_only=False):
     pres = pd.read_csv('./data/countypres-2020.csv')
+    pres = pres.groupby(['county_fips', 'candidate'], as_index=False).agg(state=('state','max'), state_po=('state_po','max'),
+                                                          county_name=('county_name', 'max'), party=('party', 'max'),
+                                                          candidatevotes=('candidatevotes','sum'), totalvotes=('totalvotes', 'max')
+                                                         )
     # Correcting for missing FIPS for D.C. (https://dc.postcodebase.com/county/11001)
     pres.loc[pres['state_po']=='DC', 'county_fips'] = 11001
     # The below FIPS is not valid for Missouri. Kansas City, MO, is mostly in Jackson County
@@ -245,6 +253,9 @@ def pres_vote_weight(min_portion=.4):
     aia['ex_FIPS'] = pd.to_numeric(aia['ex_FIPS'])
     aia.set_index(['ex_FIPS'], inplace=True)
     pres = pres[~pres['state'].isin(['ALASKA','HAWAII'])]
+
+    if legal_only:
+        pres = pres[~pres['state'].isin(BANNED_STATES)]
     dems = pres[pres.party == 'DEMOCRAT']
     dems['portion'] = dems['candidatevotes'] / dems['totalvotes']
     dems.set_index(['county_fips'], inplace=True)
@@ -254,7 +265,8 @@ def pres_vote_weight(min_portion=.4):
     dems = dems[dems['BAS ID'].isna()]
     print(len(dems))
     dems = dems[dems['portion'] >= min_portion]
-    dems['weight'] = dems['portion'] / sum(dems['portion'])
+    #dems['weight'] = dems['portion'] / sum(dems['portion'])
+    dems['weight'] = dems['candidatevotes'] / sum(dems['candidatevotes'])
     print(len(dems))
     #dems = dems[['weight']]
     return dems
@@ -277,3 +289,30 @@ def move_agents_weighted(my_fac_placements_df,border_df,num_replacements, weight
     for i,ind in enumerate(inds_to_change):
         fac_placements_df_test.loc[ind,'geometry'] = new_points.geometry.values[i]
     return fac_placements_df_test
+
+def plot_facility_placement(df_pop):
+    COUNTY_SHP_FILE = "data/UScounties/UScounties.shp"
+    bounds = load_state_bounds(COUNTY_SHP_FILE)
+
+    BACKGROUND_COLOR = '#EEEEEE'
+    LINE_COLOR ="#A0A19F"
+    DOT_COLOR = "#F08104"
+    
+    
+    fig,ax = plt.subplots(figsize = (10,15))
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    plt.grid(False)
+    
+    fig.patch.set_facecolor(BACKGROUND_COLOR)#set black background
+    ax.set_facecolor(BACKGROUND_COLOR)#set black foreground
+    
+        #df_merged.plot(column = df_pop_label,ax = ax,legend=True,cmap ='magma',norm=matplotlib.colors.LogNorm(vmin=1,vmax=pop_max),cax=cax)
+        #geo_df_up_to_year.plot(ax = ax,markersize = 0.3,c='white',alpha = 0.4)
+    #res = gpd.read_parquet('all_1000steps_placement.parq')
+    ax.tick_params(left=False,labelleft=False,bottom=False,labelbottom=False)
+    bounds.plot(ax = ax,facecolor = "none",edgecolor = LINE_COLOR,lw = 0.5)
+    df_pop.plot(ax = ax,color = DOT_COLOR,markersize = 1)
+    plt.show()
