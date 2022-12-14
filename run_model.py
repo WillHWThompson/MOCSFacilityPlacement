@@ -67,7 +67,7 @@ def get_parser():
     parser.add_argument(
         "--out_path",
         type=str,
-        default=-"./"#if set to -1, the full population will be used
+        default="./"#if set to -1, the full population will be used
     )
     return parser
 
@@ -82,7 +82,7 @@ def main(
     """
     GLOBAL VARIABLES
     """
-    COUNTY_SHP_FILE = "data/UScounties/UScounties.shp"
+    COUNTY_SHP_FILE = "/gpfs1/home/w/t/wthomps3/CSDS/year1/MOCS/fac_place/MOCSFacilityPlacement/data/UScounties/UScounties.shp"
     BANNED_STATES = ['Arkansas','Alabama','Idaho','Kentucky','Louisiana','Kentucky','Mississippi','Missouri','Oklahoma','South Dakota','Tenesee','Texas','West Virginia','Wisconsin']
     EPSG = 4
     EXTREMUM = "MIN"
@@ -90,7 +90,7 @@ def main(
     init the model for a single facility
     """
     print("loading pop point data...")
-    df_pop = pd.read_csv("data/simulated_pop_points.csv")
+    df_pop = pd.read_csv("/gpfs1/home/w/t/wthomps3/CSDS/year1/MOCS/fac_place/MOCSFacilityPlacement/data/simulated_pop_points.csv")
     gdf_pop = gpd.GeoDataFrame(df_pop,geometry = gpd.points_from_xy(df_pop.lon,df_pop.lat)).rename(columns = {"Unnamed: 0":"index"}).set_crs(EPSG_LON_LAT)#.rename(columns ={" Unnamed: 0",'index'})#generate initial facility placement
     print(f"population size: {gdf_pop.size}")
     full_pop_size = gdf_pop.shape[0]
@@ -146,6 +146,7 @@ def main(
         elif EXTREMUM == "MAX":
             to_move = test_objective_function_reindex > objective_function_reindex
             print("moving {} agents".format(to_move.astype(int).sum()))
+	    fac_placements_df = copy.deepcopy(fac_placements_df)
             fac_placements_df.loc[to_move] = test_fac_placements_df[to_move] 
 
        #record keeping 
