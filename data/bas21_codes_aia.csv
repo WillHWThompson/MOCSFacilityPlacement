@@ -1,0 +1,737 @@
+BAS ID,GEOID for TIGERweb,Name,MTDB Expanded Lsad,Tribe Name,State FIPS,State Abbreviation,County FIPS,County Name,ANSI Code
+49900304725,4725,Yerington Colony,Colony,Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch,32,NV,019,Lyon,00848133
+49900330510,0510,Carson Colony,Colony,Washoe Tribe,32,NV,510,Carson City,00859157
+49900330940,0940,Dresslerville Colony,Colony,Washoe Tribe,32,NV,005,Douglas,00862214
+49900340510,0510,Carson Colony,Colony,Washoe Tribe of Nevada & California (Carson Colony),32,NV,510,Carson City,00859157
+49900610940,0940,Dresslerville Colony,Colony,Washoe Tribe of Nevada & California (Dresslerville Colony),32,NV,005,Douglas,00862214
+49900661005,1005,Elko Colony,Colony,Te-Moak Tribe of Western Shoshone Indians (Elko Band),32,NV,007,Elko,00856239
+49900701070,1070,Fallon Paiute-Shoshone Colony,Colony,Paiute-Shoshone Tribe of the Fallon Reservation and Colony,32,NV,001,Churchill,00850495
+49900701070,1070,Fallon Paiute-Shoshone Colony,Colony,Paiute-Shoshone Tribe of the Fallon Reservation and Colony,32,NV,019,Lyon,00850495
+49902884580,4580,Wells Colony,Colony,Te-Moak Tribe of Western Shoshone Indians (Wells Band),32,NV,007,Elko,00849846
+49900333980,3980,Stewart Community,Community,Washoe Tribe,32,NV,510,Carson City,02419480
+49900333980,3980,Stewart Community,Community,Washoe Tribe,32,NV,005,Douglas,02419480
+49900334665,4665,Woodfords Community,Community,Washoe Tribe,06,CA,003,Alpine,01985241
+49900741135,1135,Forest County Potawatomi Community,Community,"Forest County Potawatomi Community, Wisconsin",55,WI,039,Fond du Lac,02418936
+49900741135,1135,Forest County Potawatomi Community,Community,"Forest County Potawatomi Community, Wisconsin",55,WI,041,Forest,02418936
+49900741135,1135,Forest County Potawatomi Community,Community,"Forest County Potawatomi Community, Wisconsin",55,WI,083,Oconto,02418936
+49900741135,1135,Forest County Potawatomi Community,Community,"Forest County Potawatomi Community, Wisconsin",55,WI,079,Milwaukee,02418936
+49900901365,1365,Grand Ronde Community,Community,Confederated Tribes of the Grand Ronde Community,41,OR,039,Lane,02418950
+49900901365,1365,Grand Ronde Community,Community,Confederated Tribes of the Grand Ronde Community,41,OR,053,Polk,02418950
+49900901365,1365,Grand Ronde Community,Community,Confederated Tribes of the Grand Ronde Community,41,OR,071,Yamhill,02418950
+49902403680,3680,Shakopee Mdewakanton Sioux Community,Community,Shakopee Mdewakanton Sioux Community of Minnesota,46,SD,103,Pennington,00649741
+49902403680,3680,Shakopee Mdewakanton Sioux Community,Community,Shakopee Mdewakanton Sioux Community of Minnesota,27,MN,139,Scott,00649741
+49902493885,3885,Sokaogon Chippewa Community,Community,"Sokaogon Chippewa Community, Wisconsin",55,WI,041,Forest,01577206
+49902563980,3980,Stewart Community,Community,Washoe Tribe of Nevada & California (Stewart Community),32,NV,005,Douglas,02419480
+49902563980,3980,Stewart Community,Community,Washoe Tribe of Nevada & California (Stewart Community),32,NV,510,Carson City,02419480
+49902594015,4015,Stockbridge Munsee Community,Community,"Stockbridge Munsee Community, Wisconsin",55,WI,115,Shawano,01577203
+49902834445,4445,Upper Sioux Reservation,Community,"Upper Sioux Community, Minnesota",27,MN,173,Yellow Medicine,00653567
+49902834445,4445,Upper Sioux Reservation,Community,"Upper Sioux Community, Minnesota",27,MN,023,Chippewa,00653567
+49902944665,4665,Woodfords Community,Community,Washoe Tribe of Nevada & California (Woodfords Community),06,CA,003,Alpine,01985241
+49903035003,5003,Anahola (Agricultural) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,02634609
+49903035004,5004,Anahola (Residential) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,02634610
+49903035008,5008,East Kapolei Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634611
+49903035009,5009,Haiku Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634612
+49903035011,5011,Hanapepe Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,00359057
+49903035018,5018,Homuula-Upper Piihonua Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,02634613
+49903035026,5026,Honokaia Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00359289
+49903035029,5029,Honokowai Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853346
+49903035030,5030,Honolulu Makai Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,01853354
+49903035031,5031,Honomu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853338
+49903035033,5033,Hoolehua-Palaau,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853339
+49903035041,5041,Kahikinui Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00359755
+49903035043,5043,Kakaina-Kumuhau Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634614
+49903035044,5044,Kalaeloa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634615
+49903035046,5046,Kalamaula Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853005
+49903035051,5051,Kalaupapa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,005,Kalawao,00360095
+49903035051,5051,Kalaupapa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00360095
+49903035053,5053,Kalawahine Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634616
+49903035056,5056,Kamaoa-Puueo Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853340
+49903035061,5061,Kamiloloa-Makakupaia Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00360304
+49903035066,5066,Kamoku-Kapulena Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853341
+49903035067,5067,Kanehili Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634618
+49903035069,5069,Kaohe-Olaa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00362767
+49903035071,5071,Kapaa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,00360456
+49903035076,5076,Kapaakea Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00360469
+49903035083,5083,Kapolei Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02414178
+49903035086,5086,Kaumana Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00360700
+49903035088,5088,Kaupea Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634619
+49903035091,5091,Kawaihae Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853020
+49903035098,5098,Keahuolu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,02634620
+49903035101,5101,Kealakehe Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853342
+49903035104,5104,Keanae-Wailua Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00360975
+49903035106,5106,Keaukaha Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853343
+49903035111,5111,Kekaha Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,01853344
+49903035114,5114,Keokea (Agricultural) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,02634621
+49903035116,5116,Keoniki Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00361139
+49903035120,5120,Kewalo Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634622
+49903035123,5123,Kolaoa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00360067
+49903035133,5133,Lalamilo Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,02414179
+49903035134,5134,Lanai City Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,02634623
+49903035135,5135,Leialii Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,02634624
+49903035136,5136,Lualualei Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,00361918
+49903035138,5138,Maili Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634625
+49903035139,5139,Makaha Valley Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634626
+49903035146,5146,Makuu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00362126
+49903035148,5148,Maluohai Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634627
+49903035156,5156,Moloaa Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,00362464
+49903035161,5161,Nanakuli Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,00362574
+49903035166,5166,Nienie Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00362640
+49903035176,5176,Panaewa (Agricultural) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853349
+49903035177,5177,Panaewa (Residential) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853352
+49903035179,5179,Papakolea Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634628
+49903035181,5181,Pauahi Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00363180
+49903035186,5186,Paukukalo Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853350
+49903035188,5188,Pearl City Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634629
+49903035193,5193,Piihonua Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,02634630
+49903035196,5196,Ponohawaii Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,01853352
+49903035198,5198,Princess Kahanu Estates Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634632
+49903035199,5199,Pulehunui Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,02414182
+49903035201,5201,Puukapu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00364148
+49903035213,5213,South Maui Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853356
+49903035216,5216,Ualapue Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853355
+49903035222,5222,Upolu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,02634633
+49903035223,5223,Waiahole Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634634
+49903035236,5236,Waiakea Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00364489
+49903035238,5238,Waianae Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,01853126
+49903035239,5239,Waianae Kai Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,02634648
+49903035241,5241,Waiehu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,00364587
+49903035248,5248,Waiku-Hana Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,02634649
+49903035251,5251,Wailau Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00364713
+49903035256,5256,Wailua Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,00364740
+49903035271,5271,Waimanalo Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,003,Honolulu,00364774
+49903035276,5276,Waimanu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00364785
+49903035281,5281,Waimea Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,007,Kauai,02414262
+49903035283,5283,Waiohinu Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,001,Hawaii,00364821
+49903035286,5286,Waiohuli (Residential) Home Land,Hawaiian Home Land,Department of Hawaiian Home Lands,15,HI,009,Maui,01853042
+49900270400,0400,Burns Paiute Colony,Indian Colony,Burns Paiute Tribe,41,OR,025,Harney,01118340
+49901301915,1915,Las Vegas Colony,Indian Colony,Las Vegas Tribe of Paiute Indians of the Las Vegas Indian Colony,32,NV,003,Clark,00853945
+49901372015,2015,Lovelock Colony,Indian Colony,"Lovelock Paiute Tribe of the Lovelock Indian Colony, Nevada",32,NV,027,Pershing,00850417
+49902093130,3130,Reno-Sparks Colony,Indian Colony,"Reno-Sparks Indian Colony, Nevada",32,NV,031,Washoe,00853944
+49902934635,4635,Winnemucca Colony,Indian Colony,Winnemucca Indian Colony of Nevada,32,NV,013,Humboldt,00849652
+49900951410,1410,Hannahville Community,Indian Community,"Hannahville Indian Community, Michigan",26,MI,041,Delta,01616983
+49900951410,1410,Hannahville Community,Indian Community,"Hannahville Indian Community, Michigan",26,MI,109,Menominee,01616983
+49901402055,2055,Lower Sioux Reservation,Indian Community,Lower Sioux Indian Community in the State of MInnesota,27,MN,127,Redwood,00647264
+49901982985,2985,Prairie Island Indian Community,Indian Community,Prairie Island Indian Community in the State of Minnesota,27,MN,049,Goodhue,00654519
+49901982985,2985,Prairie Island Indian Community,Indian Community,Prairie Island Indian Community in the State of Minnesota,27,MN,037,Dakota,00654519
+49900050095,0095,Alturas Rancheria,Indian Rancheria,"Alturas Indian Rancheria, California",06,CA,049,Modoc,00218194
+49900540780,0780,Cortina Rancheria,Indian Rancheria,Kletsel Dehe Band of Wintun Indians,06,CA,011,Colusa,00221603
+49900931395,1395,Grindstone Rancheria,Indian Rancheria,Grindstone Indian Rancheria of Wintun-Wailaki Indians,06,CA,021,Glenn,00266781
+49902173265,3265,Rumsey Rancheria,Indian Rancheria,"Yocha Dehe Wintun Nation, California",06,CA,113,Yolo,00232012
+49902624060,4060,Susanville Rancheria,Indian Rancheria,"Susanville Indian Rancheria, California",06,CA,035,Lassen,00235836
+49900020020,0020,Agua Caliente Reservation,Indian Reservation,Agua Caliente Band of Cahuilla Indians of the Agua Caliente,06,CA,065,Riverside,01934324
+49900220305,0305,Blackfeet Reservation,Indian Reservation,Blackfeet Tribe of the Blackfeet Indian Reservation of Monta,30,MT,073,Pondera,00806895
+49900220305,0305,Blackfeet Reservation,Indian Reservation,Blackfeet Tribe of the Blackfeet Indian Reservation of Monta,30,MT,035,Glacier,00806895
+49900310450,0450,Campo Reservation,Indian Reservation,Campo Band of Diegueno Mission Indians of the Campo Indian Reservation,06,CA,073,San Diego,00270242
+49900490735,0735,Colorado River Reservation,Indian Reservation,Colorado River Indian Tribes of the Colorado River Indian Reservation,04,AZ,012,La Paz,00022753
+49900490735,0735,Colorado River Reservation,Indian Reservation,Colorado River Indian Tribes of the Colorado River Indian Reservation,06,CA,071,San Bernardino,00022753
+49900490735,0735,Colorado River Reservation,Indian Reservation,Colorado River Indian Tribes of the Colorado River Indian Reservation,06,CA,065,Riverside,00022753
+49900811210,1210,Fort McDermitt Reservation,Indian Reservation,Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation,32,NV,013,Humboldt,00859740
+49900811210,1210,Fort McDermitt Reservation,Indian Reservation,Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation,41,OR,045,Malheur,00859740
+49900841250,1250,Fort Peck Reservation,Indian Reservation,Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation,30,MT,105,Valley,00805884
+49900841250,1250,Fort Peck Reservation,Indian Reservation,Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation,30,MT,085,Roosevelt,00805884
+49900841250,1250,Fort Peck Reservation,Indian Reservation,Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation,30,MT,019,Daniels,00805884
+49900841250,1250,Fort Peck Reservation,Indian Reservation,Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation,30,MT,091,Sheridan,00805884
+49900861280,1280,Fort Yuma Reservation,Indian Reservation,Quechan Tribe of the Fort Yuma Indian Reservation,04,AZ,027,Yuma,00242378
+49900861280,1280,Fort Yuma Reservation,Indian Reservation,Quechan Tribe of the Fort Yuma Indian Reservation,06,CA,025,Imperial,00242378
+49900871310,1310,Gila River Reservation,Indian Reservation,Gila River Indian Community of the Gila River Indian Reservation,04,AZ,013,Maricopa,00023998
+49900871310,1310,Gila River Reservation,Indian Reservation,Gila River Indian Community of the Gila River Indian Reservation,04,AZ,021,Pinal,00023998
+49900981460,1460,Hoh Reservation,Indian Reservation,Hoh Indian Tribe,53,WA,031,Jefferson,01505548
+49901031545,1545,Hualapai Reservation,Indian Reservation,Hualapai Indian Tribe of the Hualapai Indian Reservation,04,AZ,005,Coconino,00045633
+49901031545,1545,Hualapai Reservation,Indian Reservation,Hualapai Indian Tribe of the Hualapai Indian Reservation,04,AZ,015,Mohave,00045633
+49901031545,1545,Hualapai Reservation,Indian Reservation,Hualapai Indian Tribe of the Hualapai Indian Reservation,04,AZ,025,Yavapai,00045633
+49901151720,1720,Kaibab Reservation,Indian Reservation,Kaibab Band of Paiute Indians of the Kaibab Indian Reservation,04,AZ,015,Mohave,00023994
+49901151720,1720,Kaibab Reservation,Indian Reservation,Kaibab Band of Paiute Indians of the Kaibab Indian Reservation,04,AZ,005,Coconino,00023994
+49901291895,1895,La Posta Reservation,Indian Reservation,La Posta Band of Diegueno Mission Indians of the La Posta Indian Reservation,06,CA,073,San Diego,00255947
+49901422085,2085,Makah Reservation,Indian Reservation,Makah Indian Tribe of the Makah Indian Reservation,53,WA,009,Clallam,01511577
+49901452130,2130,Maricopa (Ak Chin) Indian Reservation,Indian Reservation,Ak Chin Indian Community,04,AZ,021,Pinal,00023997
+49901542315,2315,Moapa River Reservation,Indian Reservation,Moapa Band of Paiute Indians of the Moapa River Indian Reservation,32,NV,003,Clark,00845336
+49901652490,2490,Northern Cheyenne Reservation,Indian Reservation,Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation,46,SD,093,Meade,01637567
+49901652490,2490,Northern Cheyenne Reservation,Indian Reservation,Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation,30,MT,087,Rosebud,01637567
+49901652490,2490,Northern Cheyenne Reservation,Indian Reservation,Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation,30,MT,003,Big Horn,01637567
+49902153235,3235,Rosebud Reservation,Indian Reservation,Rosebud Sioux Tribe of the Rosebud Indian Reservation,46,SD,123,Tripp,01266248
+49902153235,3235,Rosebud Reservation,Indian Reservation,Rosebud Sioux Tribe of the Rosebud Indian Reservation,46,SD,095,Mellette,01266248
+49902153235,3235,Rosebud Reservation,Indian Reservation,Rosebud Sioux Tribe of the Rosebud Indian Reservation,46,SD,121,Todd,01266248
+49902153235,3235,Rosebud Reservation,Indian Reservation,Rosebud Sioux Tribe of the Rosebud Indian Reservation,46,SD,053,Gregory,01266248
+49902153235,3235,Rosebud Reservation,Indian Reservation,Rosebud Sioux Tribe of the Rosebud Indian Reservation,46,SD,085,Lyman,01266248
+49902433780,3780,Shoalwater Bay Reservation,Indian Reservation,Shoalwater Bay Tribe of the Shoalwater Bay Indian Reservation,53,WA,049,Pacific,01508317
+49908651270,1270,Fort Sill Apache Indian Reservation,Indian Reservation,Fort Sill Apache Tribe of Oklahoma,35,NM,029,Luna,02711352
+49901121670,1670,Jamul Indian Village,Indian Village,Jamul Indian Village of California,06,CA,073,San Diego,02418979
+49901184910,4910,Kickapoo (KS)/Sac and Fox joint use area,joint-use area,Kickapoo Tribe of Indians of the Kickapoo Reservation,20,KS,013,Brown,02418987
+49902194910,4910,Kickapoo (KS)/Sac and Fox joint use area,joint-use area,Sac & Fox Nation of Missouri in Kansas and Nebraska,20,KS,013,Brown,02418987
+49902254930,4930,San Felipe/Santa Ana joint use area,joint-use area,"Pueblo of San Felipe, New Mexico",35,NM,043,Sandoval,02419124
+49902254940,4940,San Felipe/Santo Domingo joint use area,joint-use area,"Pueblo of San Felipe, New Mexico",35,NM,043,Sandoval,02419125
+49902304930,4930,San Felipe/Santa Ana joint use area,joint-use area,"Pueblo of Santa Ana, New Mexico",35,NM,043,Sandoval,02419124
+49902374940,4940,San Felipe/Santo Domingo joint use area,joint-use area,"Kewa Pueblo, New Mexico",35,NM,043,Sandoval,02419125
+49900010010,0010,Acoma Pueblo,Pueblo,"Pueblo of Acoma, New Mexico",35,NM,053,Socorro,01934337
+49900010010,0010,Acoma Pueblo,Pueblo,"Pueblo of Acoma, New Mexico",35,NM,003,Catron,01934337
+49900010010,0010,Acoma Pueblo,Pueblo,"Pueblo of Acoma, New Mexico",35,NM,006,Cibola,01934337
+49901091625,1625,Isleta Pueblo,Pueblo,"Pueblo of Isleta, New Mexico",35,NM,001,Bernalillo,01934338
+49901091625,1625,Isleta Pueblo,Pueblo,"Pueblo of Isleta, New Mexico",35,NM,057,Torrance,01934338
+49901091625,1625,Isleta Pueblo,Pueblo,"Pueblo of Isleta, New Mexico",35,NM,061,Valencia,01934338
+49901131685,1685,Jemez Pueblo,Pueblo,"Pueblo of Jemez, New Mexico",35,NM,043,Sandoval,00916031
+49901251840,1840,Laguna Pueblo,Pueblo,"Pueblo of Laguna, New Mexico",35,NM,061,Valencia,01934340
+49901251840,1840,Laguna Pueblo,Pueblo,"Pueblo of Laguna, New Mexico",35,NM,001,Bernalillo,01934340
+49901251840,1840,Laguna Pueblo,Pueblo,"Pueblo of Laguna, New Mexico",35,NM,043,Sandoval,01934340
+49901251840,1840,Laguna Pueblo,Pueblo,"Pueblo of Laguna, New Mexico",35,NM,006,Cibola,01934340
+49901592400,2400,Nambe Pueblo,Pueblo,"Pueblo of Nambe, New Mexico",35,NM,049,Santa Fe,00918263
+49901902785,2785,Picuris Pueblo,Pueblo,"Pueblo of Picuris, New Mexico",35,NM,055,Taos,01934341
+49902243370,3370,Sandia Pueblo,Pueblo,"Pueblo of Sandia, New Mexico",35,NM,001,Bernalillo,01934343
+49902243370,3370,Sandia Pueblo,Pueblo,"Pueblo of Sandia, New Mexico",35,NM,043,Sandoval,01934343
+49902253400,3400,San Felipe Pueblo,Pueblo,"Pueblo of San Felipe, New Mexico",35,NM,043,Sandoval,00910614
+49902263415,3415,San Ildefonso Pueblo,Pueblo,"Pueblo of San Ildefonso, New Mexico",35,NM,049,Santa Fe,00918342
+49902263415,3415,San Ildefonso Pueblo,Pueblo,"Pueblo of San Ildefonso, New Mexico",35,NM,043,Sandoval,00918342
+49902303480,3480,Santa Ana Pueblo,Pueblo,"Pueblo of Santa Ana, New Mexico",35,NM,043,Sandoval,01934345
+49902313495,3495,Santa Clara Pueblo,Pueblo,"Pueblo of Santa Clara, New Mexico",35,NM,049,Santa Fe,00937196
+49902313495,3495,Santa Clara Pueblo,Pueblo,"Pueblo of Santa Clara, New Mexico",35,NM,043,Sandoval,00937196
+49902313495,3495,Santa Clara Pueblo,Pueblo,"Pueblo of Santa Clara, New Mexico",35,NM,039,Rio Arriba,00937196
+49902373585,3585,Santo Domingo Pueblo,Pueblo,"Kewa Pueblo, New Mexico",35,NM,043,Sandoval,00937201
+49902373585,3585,Santo Domingo Pueblo,Pueblo,"Kewa Pueblo, New Mexico",35,NM,049,Santa Fe,00937201
+49902674140,4140,Taos Pueblo,Pueblo,"Pueblo of Taos, New Mexico",35,NM,055,Taos,01934342
+49902684170,4170,Tesuque Pueblo,Pueblo,"Pueblo of Tesuque, New Mexico",35,NM,049,Santa Fe,00937203
+49902994755,4755,Ysleta Del Sur Pueblo,Pueblo,Ysleta del Sur Pueblo,48,TX,141,El Paso,02419529
+49903014770,4770,Zia Pueblo,Pueblo,"Pueblo of Zia, New Mexico",35,NM,043,Sandoval,01934347
+49900450680,0680,Pueblo de Cochiti,Pueblo de,"Pueblo of Cochiti, New Mexico",35,NM,049,Santa Fe,00937176
+49900450680,0680,Pueblo de Cochiti,Pueblo de,"Pueblo of Cochiti, New Mexico",35,NM,043,Sandoval,00937176
+49901942990,2990,Pueblo of Pojoaque,Pueblo of,"Pueblo of Pojoaque, New Mexico",35,NM,049,Santa Fe,00937193
+49900300440,0440,Campbell Ranch,Ranch,Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch,32,NV,019,Lyon,00848690
+49900140200,0200,Berry Creek Rancheria,Rancheria,Berry Creek Rancheria of Maidu Indians of California,06,CA,007,Butte,00256849
+49900150215,0215,Big Bend Rancheria,Rancheria,"Pit River Tribe, California",06,CA,089,Shasta,00256889
+49900151955,1955,Likely Rancheria,Rancheria,"Pit River Tribe, California",06,CA,049,Modoc,00276402
+49900151980,1980,Lookout Rancheria,Rancheria,"Pit River Tribe, California",06,CA,049,Modoc,00227643
+49900152330,2330,Montgomery Creek Rancheria,Rancheria,"Pit River Tribe, California",06,CA,089,Shasta,00263771
+49900153185,3185,Roaring Creek Rancheria,Rancheria,"Pit River Tribe, California",06,CA,089,Shasta,00265444
+49900154680,4680,XL Ranch Rancheria,Rancheria,"Pit River Tribe, California",06,CA,049,Modoc,00252581
+49900170240,0240,Big Lagoon Rancheria,Rancheria,"Big Lagoon Rancheria, California",06,CA,023,Humboldt,00219211
+49900190265,0265,Big Sandy Rancheria,Rancheria,Big Sandy Rancheria of Mono Indians,06,CA,019,Fresno,01667416
+49900200275,0275,Big Valley Rancheria,Rancheria,Big Valley Band of Pomo Indians of the Big Valley Rancheria,06,CA,033,Lake,00219277
+49900230325,0325,Blue Lake Rancheria,Rancheria,"Blue Lake Rancheria, California",06,CA,023,Humboldt,02419316
+49900360555,0555,Cedarville Rancheria,Rancheria,"Cedarville Rancheria, California",06,CA,049,Modoc,00220808
+49900430620,0620,Chicken Ranch Rancheria,Rancheria,Chicken Ranch Rancheria of Me-Wuk Indians of California,06,CA,109,Tuolumne,02419337
+49900480720,0720,Cold Springs Rancheria,Rancheria,Cold Springs Rancheria of Mono Indians of California,06,CA,019,Fresno,00276284
+49900500750,0750,Colusa Rancheria,Rancheria,Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria,06,CA,011,Colusa,02418877
+49900620955,0955,Dry Creek Rancheria,Rancheria,"Dry Creek Rancheria Band of Pomo Indians, California",06,CA,097,Sonoma,00222639
+49900671010,1010,Elk Valley Rancheria,Rancheria,"Elk Valley Rancheria, California",06,CA,015,Del Norte,01657318
+49900691055,1055,Enterprise Rancheria,Rancheria,Enterprise Rancheria of Maidu Indians of California,06,CA,115,Yuba,00259950
+49900691055,1055,Enterprise Rancheria,Rancheria,Enterprise Rancheria of Maidu Indians of California,06,CA,007,Butte,00259950
+49900852075,2075,Lytton Rancheria,Rancheria,Lytton Rancheria of California,06,CA,013,Contra Costa,00227877
+49900921380,1380,Greenville Rancheria,Rancheria,Greenville Rancheria,06,CA,063,Plumas,01666180
+49900941400,1400,Guidiville Rancheria,Rancheria,Guidiville Rancheria of California,06,CA,045,Mendocino,00224709
+49901011515,1515,Hopland Rancheria,Rancheria,"Hopland Band of Pomo Indians, California",06,CA,045,Mendocino,00225577
+49901011515,1515,Hopland Rancheria,Rancheria,"Hopland Band of Pomo Indians, California",06,CA,033,Lake,00225577
+49901101640,1640,Jackson Rancheria,Rancheria,Jackson Band of Miwuk Indians,06,CA,005,Amador,00226085
+49901311925,1925,Laytonville Rancheria,Rancheria,Cahto Tribe of the Laytonville Rancheria,06,CA,045,Mendocino,00226975
+49901432100,2100,Manchester-Point Arena Rancheria,Rancheria,Manchester Band of Pomo Indians of the Manchester Rancheri,06,CA,045,Mendocino,01985200
+49901512255,2255,Middletown Rancheria,Rancheria,Middletown Rancheria of Pomo Indians of California,06,CA,033,Lake,00228627
+49901562340,2340,Mooretown Rancheria,Rancheria,Mooretown Rancheria of Maidu Indians of California,06,CA,007,Butte,02419023
+49901662495,2495,North Fork Rancheria,Rancheria,Northfork Rancheria of Mono Indians of California,06,CA,039,Madera,02419036
+49901892775,2775,Picayune Rancheria,Rancheria,Picayune Rancheria of Chukchansi Indians of California,06,CA,039,Madera,01670201
+49901922820,2820,Pinoleville Rancheria,Rancheria,"Pinoleville Pomo Nation, California",06,CA,045,Mendocino,00230747
+49902063095,3095,Redding Rancheria,Rancheria,"Redding Rancheria, California",06,CA,089,Shasta,01682404
+49902083115,3115,Redwood Valley Rancheria,Rancheria,Redwood Valley Rancheria of Pomo Indians,06,CA,045,Mendocino,00231455
+49902103145,3145,Resighini Rancheria,Rancheria,"Resighini Rancheria, California",06,CA,015,Del Norte,01657342
+49902123195,3195,Robinson Rancheria,Rancheria,Robinson Rancheria,06,CA,033,Lake,00234577
+49902323520,3520,Santa Rosa Rancheria,Rancheria,Santa Rosa Indian Community of the Santa Rosa Rancheria,06,CA,031,Kings,00247949
+49902413735,3735,Sherwood Valley Rancheria,Rancheria,Sherwood Valley Rancheria of Pomo Indians of California,06,CA,045,Mendocino,00232986
+49902423750,3750,Shingle Springs Rancheria,Rancheria,"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract)",06,CA,017,El Dorado,00233021
+49902473855,3855,Smith River Rancheria,Rancheria,Tolowa Dee-ni' Nation,06,CA,015,Del Norte,00274833
+49902573985,3985,Stewarts Point Rancheria,Rancheria,Kashia Band of Pomo Indians of the Stewarts Point Rancheria,06,CA,097,Sonoma,00235473
+49902604030,4030,Sulphur Bank Rancheria,Rancheria,Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria,06,CA,033,Lake,00267889
+49902664110,4110,Table Mountain Rancheria,Rancheria,Table Mountain Rancheria of California,06,CA,019,Fresno,02419484
+49902734275,4275,Trinidad Rancheria,Rancheria,Cher-Ae Heights Indian Community of the Trinidad Rancheria,06,CA,023,Humboldt,00268407
+49902774330,4330,Tuolumne Rancheria,Rancheria,Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria,06,CA,109,Tuolumne,00236635
+49902824430,4430,Upper Lake Rancheria,Rancheria,"Habematolel Pomo of Upper Lake, California",06,CA,033,Lake,01654496
+49906570120,0120,Auburn Rancheria,Rancheria,United Auburn Indian Community,06,CA,061,Placer,00218454
+49906592685,2685,Paskenta Rancheria,Rancheria,Paskenta Band of Nomlaki Indians of California,06,CA,103,Tehama,02419050
+49900030050,0050,Alabama-Coushatta Reservation,Reservation,Alabama-Coushatta Tribe of Texas,48,TX,373,Polk,01350923
+49900040080,0080,Allegany Reservation,Reservation,Seneca Nation of Indians,36,NY,009,Cattaraugus,00978667
+49900040540,0540,Cattaraugus Reservation,Reservation,Seneca Nation of Indians,36,NY,013,Chautauqua,00978804
+49900040540,0540,Cattaraugus Reservation,Reservation,Seneca Nation of Indians,36,NY,029,Erie,00978804
+49900040540,0540,Cattaraugus Reservation,Reservation,Seneca Nation of Indians,36,NY,009,Cattaraugus,00978804
+49900042535,2535,Oil Springs Reservation,Reservation,Seneca Nation of Indians,36,NY,009,Cattaraugus,00979303
+49900042535,2535,Oil Springs Reservation,Reservation,Seneca Nation of Indians,36,NY,003,Allegany,00979303
+49900070125,0125,Augustine Reservation,Reservation,"Augustine Band of Cahuilla Indians, California",06,CA,065,Riverside,00238830
+49900080140,0140,Bad River Reservation,Reservation,Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation,55,WI,003,Ashland,01577209
+49900080140,0140,Bad River Reservation,Reservation,Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation,55,WI,051,Iron,01577209
+49900090155,0155,Barona Reservation,Reservation,Capitan Grande Band of Diegueno Mission Indians: Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation,06,CA,073,San Diego,00255962
+49900090495,0495,Capitan Grande Reservation,Reservation,Capitan Grande Band of Diegueno Mission Indians: Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation,06,CA,073,San Diego,00240225
+49900110165,0165,Battle Mountain Reservation,Reservation,Te-Moak Tribe of Western Shoshone Indians (Battle Mountain Band),32,NV,015,Lander,00838653
+49900120170,0170,Bay Mills Reservation,Reservation,"Bay Mills Indian Community, Michigan",26,MI,033,Chippewa,01622234
+49900130185,0185,Benton Paiute Reservation,Reservation,Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation,06,CA,051,Mono,02419307
+49900160225,0225,Big Cypress Reservation,Reservation,Seminole Tribe of Florida,12,FL,011,Broward,01934321
+49900160225,0225,Big Cypress Reservation,Reservation,Seminole Tribe of Florida,12,FL,051,Hendry,01934321
+49900160360,0360,Brighton Reservation,Reservation,Seminole Tribe of Florida,12,FL,043,Glades,00300151
+49900161260,1260,Fort Pierce Reservation,Reservation,Seminole Tribe of Florida,12,FL,111,St. Lucie,02418940
+49900161475,1475,Hollywood Reservation,Reservation,Seminole Tribe of Florida,12,FL,011,Broward,00284183
+49900161555,1555,Immokalee Reservation,Reservation,Seminole Tribe of Florida,12,FL,021,Collier,02418972
+49900164130,4130,Tampa Reservation,Reservation,Seminole Tribe of Florida,12,FL,057,Hillsborough,02419488
+49900180250,0250,Big Pine Reservation,Reservation,Big Pine Band of Owens Valley,06,CA,027,Inyo,00256983
+49900210290,0290,Bishop Reservation,Reservation,Bishop Paiute Tribe,06,CA,027,Inyo,00264455
+49900250335,0335,Bois Forte Reservation,Reservation,Minnesota Chippewa Tribe (Bois Forte Band (Nett Lake)),27,MN,071,Koochiching,02105053
+49900250335,0335,Bois Forte Reservation,Reservation,Minnesota Chippewa Tribe (Bois Forte Band (Nett Lake)),27,MN,061,Itasca,02105053
+49900250335,0335,Bois Forte Reservation,Reservation,Minnesota Chippewa Tribe (Bois Forte Band (Nett Lake)),27,MN,137,St. Louis,02105053
+49900260350,0350,Bridgeport Reservation,Reservation,Bridgeport Indian Colony,06,CA,051,Mono,02419320
+49900280415,0415,Cabazon Reservation,Reservation,"Cabazon Band of Mission Indians, California",06,CA,065,Riverside,01985192
+49900290435,0435,Cahuilla Reservation,Reservation,Cahuilla Band of Indians,06,CA,065,Riverside,00270144
+49900320495,0495,Capitan Grande Reservation,Reservation,Capitan Grande Band of Diegueno Mission Indians: Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation,06,CA,073,San Diego,00240225
+49900324500,4500,Viejas Reservation,Reservation,Capitan Grande Band of Diegueno Mission Indians: Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation,06,CA,073,San Diego,00251037
+49900350525,0525,Catawba Reservation,Reservation,Catawba Indian Nation,45,SC,091,York,01233634
+49900374405,4405,Umatilla Reservation,Reservation,Confederated Tribes of the Umatilla Indian Reservation,53,WA,071,Walla Walla,01159100
+49900374405,4405,Umatilla Reservation,Reservation,Confederated Tribes of the Umatilla Indian Reservation,41,OR,059,Umatilla,01159100
+49900374405,4405,Umatilla Reservation,Reservation,Confederated Tribes of the Umatilla Indian Reservation,41,OR,061,Union,01159100
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,065,Wasco,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,055,Sherman,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,031,Jefferson,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,005,Clackamas,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,027,Hood River,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,047,Marion,01133438
+49900384545,4545,Warm Springs Reservation,Reservation,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,021,Gilliam,01133438
+49900394690,4690,Yakama Nation Reservation,Reservation,Confederated Tribes and Bands of the Yakama Nation,53,WA,041,Lewis,01502906
+49900394690,4690,Yakama Nation Reservation,Reservation,Confederated Tribes and Bands of the Yakama Nation,53,WA,077,Yakima,01502906
+49900394690,4690,Yakama Nation Reservation,Reservation,Confederated Tribes and Bands of the Yakama Nation,53,WA,039,Klickitat,01502906
+49900400575,0575,Chehalis Reservation,Reservation,Confederated Tribes of the Chehalis Reservation,53,WA,041,Lewis,01503930
+49900400575,0575,Chehalis Reservation,Reservation,Confederated Tribes of the Chehalis Reservation,53,WA,027,Grays Harbor,01503930
+49900400575,0575,Chehalis Reservation,Reservation,Confederated Tribes of the Chehalis Reservation,53,WA,067,Thurston,01503930
+49900410585,0585,Chemehuevi Reservation,Reservation,Chemehuevi Indian Tribe of the Chemehuevi Reservation,06,CA,071,San Bernardino,00255956
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,117,Stanley,01267254
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,119,Sully,01267254
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,055,Haakon,01267254
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,093,Meade,01267254
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,041,Dewey,01267254
+49900420605,0605,Cheyenne River Reservation,Reservation,Cheyenne River Sioux Tribe of the Cheyenne River Reservation,46,SD,137,Ziebach,01267254
+49900440635,0635,Chitimacha Reservation,Reservation,Chitimacha Tribe of Louisiana,22,LA,101,St. Mary,02419340
+49900460695,0695,Cocopah Reservation,Reservation,Cocopah Tribe of Arizona,04,AZ,027,Yuma,00003089
+49900470705,0705,Coeur d'Alene Reservation,Reservation,Coeur D'Alene Tribe,16,ID,055,Kootenai,00395231
+49900470705,0705,Coeur d'Alene Reservation,Reservation,Coeur D'Alene Tribe,16,ID,009,Benewah,00395231
+49900510760,0760,Colville Reservation,Reservation,Confederated Tribes of the Colville Reservation,53,WA,019,Ferry,01529464
+49900510760,0760,Colville Reservation,Reservation,Confederated Tribes of the Colville Reservation,53,WA,007,Chelan,01529464
+49900510760,0760,Colville Reservation,Reservation,Confederated Tribes of the Colville Reservation,53,WA,047,Okanogan,01529464
+49900520770,0770,"Coos, Lower Umpqua, and Siuslaw Reservation",Reservation,"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians",41,OR,015,Curry,02418879
+49900520770,0770,"Coos, Lower Umpqua, and Siuslaw Reservation",Reservation,"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians",41,OR,039,Lane,02418879
+49900520770,0770,"Coos, Lower Umpqua, and Siuslaw Reservation",Reservation,"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians",41,OR,011,Coos,02418879
+49900530775,0775,Coquille Reservation,Reservation,Coquille Indian Tribe,41,OR,011,Coos,02418881
+49900550795,0795,Coushatta Reservation,Reservation,Coushatta Tribe of Louisiana,22,LA,003,Allen,00545438
+49900560815,0815,Cow Creek Reservation,Reservation,Cow Creek Band of Umpqua Tribe of Indians,41,OR,019,Douglas,02418898
+49900570825,0825,Coyote Valley Reservation,Reservation,Coyote Valley Band of Pomo Indians of California,06,CA,045,Mendocino,01985199
+49900580845,0845,Crow Reservation,Reservation,Crow Tribe of Montana,30,MT,103,Treasure,00806896
+49900580845,0845,Crow Reservation,Reservation,Crow Tribe of Montana,30,MT,111,Yellowstone,00806896
+49900580845,0845,Crow Reservation,Reservation,Crow Tribe of Montana,30,MT,003,Big Horn,00806896
+49900590855,0855,Crow Creek Reservation,Reservation,Crow Creek Sioux Tribe of the Crow Creek Reservation,46,SD,065,Hughes,01267067
+49900590855,0855,Crow Creek Reservation,Reservation,Crow Creek Sioux Tribe of the Crow Creek Reservation,46,SD,017,Buffalo,01267067
+49900590855,0855,Crow Creek Reservation,Reservation,Crow Creek Sioux Tribe of the Crow Creek Reservation,46,SD,069,Hyde,01267067
+49900601065,1065,Ewiiaapaayp Reservation,Reservation,"Ewiiaapaayp Band of Kumeyaay Indians, California",06,CA,073,San Diego,00241187
+49900630965,0965,Duck Valley Reservation,Reservation,Shoshone-Paiute Tribes of the Duck Valley Reservation,32,NV,007,Elko,00858264
+49900630965,0965,Duck Valley Reservation,Reservation,Shoshone-Paiute Tribes of the Duck Valley Reservation,16,ID,073,Owyhee,00858264
+49900640975,0975,Duckwater Reservation,Reservation,Duckwater Shoshone Tribe of the Duckwater Reservation,32,NV,023,Nye,00845441
+49900650990,0990,Eastern Cherokee Reservation,Reservation,Eastern Band of Cherokee Indians,37,NC,099,Jackson,01018039
+49900650990,0990,Eastern Cherokee Reservation,Reservation,Eastern Band of Cherokee Indians,37,NC,087,Haywood,01018039
+49900650990,0990,Eastern Cherokee Reservation,Reservation,Eastern Band of Cherokee Indians,37,NC,075,Graham,01018039
+49900650990,0990,Eastern Cherokee Reservation,Reservation,Eastern Band of Cherokee Indians,37,NC,039,Cherokee,01018039
+49900650990,0990,Eastern Cherokee Reservation,Reservation,Eastern Band of Cherokee Indians,37,NC,173,Swain,01018039
+49900681040,1040,Ely Reservation,Reservation,Ely Shoshone Tribe of Nevada,32,NV,033,White Pine,00859672
+49900701075,1075,Fallon Paiute-Shoshone Reservation,Reservation,Paiute-Shoshone Tribe of the Fallon Reservation and Colony,32,NV,001,Churchill,00840414
+49900711100,1100,Flandreau Reservation,Reservation,Flandreau Santee Sioux Tribe of South Dakota,46,SD,101,Moody,02418935
+49900721110,1110,Flathead Reservation,Reservation,Confederated Salish & Kootenai Tribes of the Flathead Reservation,30,MT,047,Lake,00806894
+49900721110,1110,Flathead Reservation,Reservation,Confederated Salish & Kootenai Tribes of the Flathead Reservation,30,MT,029,Flathead,00806894
+49900721110,1110,Flathead Reservation,Reservation,Confederated Salish & Kootenai Tribes of the Flathead Reservation,30,MT,063,Missoula,00806894
+49900721110,1110,Flathead Reservation,Reservation,Confederated Salish & Kootenai Tribes of the Flathead Reservation,30,MT,089,Sanders,00806894
+49900731125,1125,Fond du Lac Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Fond du Lac Band)",27,MN,137,St. Louis,00654521
+49900731125,1125,Fond du Lac Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Fond du Lac Band)",27,MN,017,Carlton,00654521
+49900731125,1125,Fond du Lac Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Fond du Lac Band)",55,WI,031,Douglas,00654521
+49900751140,1140,Fort Apache Reservation,Reservation,White Mountain Apache Tribe of the Fort Apache Reservation,04,AZ,007,Gila,00004741
+49900751140,1140,Fort Apache Reservation,Reservation,White Mountain Apache Tribe of the Fort Apache Reservation,04,AZ,001,Apache,00004741
+49900751140,1140,Fort Apache Reservation,Reservation,White Mountain Apache Tribe of the Fort Apache Reservation,04,AZ,017,Navajo,00004741
+49900761150,1150,Fort Belknap Reservation,Reservation,Fort Belknap Indian Community of the Fort Belknap Reservation,30,MT,005,Blaine,00767938
+49900761150,1150,Fort Belknap Reservation,Reservation,Fort Belknap Indian Community of the Fort Belknap Reservation,30,MT,071,Phillips,00767938
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,061,Mountrail,01934325
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,053,McKenzie,01934325
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,057,Mercer,01934325
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,101,Ward,01934325
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,025,Dunn,01934325
+49900771160,1160,Fort Berthold Reservation,Reservation,Three Affiliated Tribes of the Fort Berthold Reservation,38,ND,055,McLean,01934325
+49900781170,1170,Fort Bidwell Reservation,Reservation,Fort Bidwell Indian Community of the Fort Bidwell Reservation,06,CA,049,Modoc,00260275
+49900791185,1185,Fort Hall Reservation,Reservation,Shoshone-Bannock Tribes of the Fort Hall Reservation,16,ID,029,Caribou,00399059
+49900791185,1185,Fort Hall Reservation,Reservation,Shoshone-Bannock Tribes of the Fort Hall Reservation,16,ID,011,Bingham,00399059
+49900791185,1185,Fort Hall Reservation,Reservation,Shoshone-Bannock Tribes of the Fort Hall Reservation,16,ID,077,Power,00399059
+49900791185,1185,Fort Hall Reservation,Reservation,Shoshone-Bannock Tribes of the Fort Hall Reservation,16,ID,005,Bannock,00399059
+49900801195,1195,Fort Independence Reservation,Reservation,Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation,06,CA,027,Inyo,00260277
+49900821220,1220,Fort McDowell Yavapai Nation Reservation,Reservation,"Fort McDowell Yavapai Nation, Arizona",04,AZ,013,Maricopa,00036978
+49900831235,1235,Fort Mojave Reservation,Reservation,"Fort Mojave Indian Tribe of Arizona, California & Nevada",32,NV,003,Clark,00024003
+49900831235,1235,Fort Mojave Reservation,Reservation,"Fort Mojave Indian Tribe of Arizona, California & Nevada",06,CA,071,San Bernardino,00024003
+49900831235,1235,Fort Mojave Reservation,Reservation,"Fort Mojave Indian Tribe of Arizona, California & Nevada",04,AZ,015,Mohave,00024003
+49900881340,1340,Goshute Reservation,Reservation,Confederated Tribes of the Goshute Reservation,49,UT,045,Tooele,01455300
+49900881340,1340,Goshute Reservation,Reservation,Confederated Tribes of the Goshute Reservation,32,NV,033,White Pine,01455300
+49900881340,1340,Goshute Reservation,Reservation,Confederated Tribes of the Goshute Reservation,49,UT,023,Juab,01455300
+49900891355,1355,Grand Portage Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Grand Portage Band)",27,MN,031,Cook,00654523
+49900911370,1370,Grand Traverse Reservation,Reservation,Grand Traverse Band of Ottawa & Chippewa Indians,26,MI,055,Grand Traverse,02418951
+49900911370,1370,Grand Traverse Reservation,Reservation,Grand Traverse Band of Ottawa & Chippewa Indians,26,MI,089,Leelanau,02418951
+49900911370,1370,Grand Traverse Reservation,Reservation,Grand Traverse Band of Ottawa & Chippewa Indians,26,MI,019,Benzie,02418951
+49900911370,1370,Grand Traverse Reservation,Reservation,Grand Traverse Band of Ottawa & Chippewa Indians,26,MI,029,Charlevoix,02418951
+49900911370,1370,Grand Traverse Reservation,Reservation,Grand Traverse Band of Ottawa & Chippewa Indians,26,MI,009,Antrim,02418951
+49900961440,1440,Havasupai Reservation,Reservation,"Havasupai Tribe of the Havasupai Reservation, Arizona",04,AZ,005,Coconino,00045638
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,115,Shawano,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,123,Vernon,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,025,Dane,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,081,Monroe,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,111,Sauk,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,073,Marathon,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,035,Eau Claire,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,057,Juneau,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,053,Jackson,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,27,MN,055,Houston,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,063,La Crosse,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,023,Crawford,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,019,Clark,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,001,Adams,02418963
+49900971450,1450,Ho-Chunk Nation Reservation,Reservation,Ho-Chunk Nation of Wisconsin,55,WI,141,Wood,02418963
+49900991490,1490,Hoopa Valley Reservation,Reservation,"Hoopa Valley Tribe, California",06,CA,023,Humboldt,00252109
+49901001505,1505,Hopi Reservation,Reservation,Hopi Tribe of Arizona,04,AZ,005,Coconino,00024001
+49901001505,1505,Hopi Reservation,Reservation,Hopi Tribe of Arizona,04,AZ,017,Navajo,00024001
+49901021530,1530,Houlton Maliseet Reservation,Reservation,Houlton Band of Maliseet Indians,23,ME,003,Aroostook,02418969
+49901041550,1550,Huron Potawatomi Reservation,Reservation,"Nottawaseppi Huron Band of the Potawatomi, Michigan",26,MI,025,Calhoun,02109298
+49901051560,1560,Inaja and Cosmit Reservation,Reservation,Inaja Band of Diegueno Mission Indians of the Inaja and Cosmit Reservation,06,CA,073,San Diego,00243797
+49901061575,1575,Indian Township Reservation,Reservation,Passamaquoddy Tribe - Indian Township Reservation,23,ME,029,Washington,02418973
+49901071590,1590,Iowa (KS-NE) Reservation,Reservation,Iowa Tribe of Kansas and Nebraska,31,NE,147,Richardson,00479831
+49901071590,1590,Iowa (KS-NE) Reservation,Reservation,Iowa Tribe of Kansas and Nebraska,20,KS,013,Brown,00479831
+49901071590,1590,Iowa (KS-NE) Reservation,Reservation,Iowa Tribe of Kansas and Nebraska,20,KS,043,Doniphan,00479831
+49901081610,1610,Isabella Reservation,Reservation,Saginaw Chippewa Indian Tribe of Michigan,26,MI,011,Arenac,01616981
+49901081610,1610,Isabella Reservation,Reservation,Saginaw Chippewa Indian Tribe of Michigan,26,MI,073,Isabella,01616981
+49901081610,1610,Isabella Reservation,Reservation,Saginaw Chippewa Indian Tribe of Michigan,26,MI,069,Iosco,01616981
+49901111655,1655,Jamestown S'Klallam Reservation,Reservation,Jamestown S'Klallam Tribe,53,WA,009,Clallam,02418978
+49901141700,1700,Jicarilla Apache Nation Reservation,Reservation,"Jicarilla Apache Nation, New Mexico",35,NM,043,Sandoval,01934339
+49901141700,1700,Jicarilla Apache Nation Reservation,Reservation,"Jicarilla Apache Nation, New Mexico",35,NM,039,Rio Arriba,01934339
+49901161735,1735,Kalispel Reservation,Reservation,Kalispel Indian Community of the Kalispel Reservation,53,WA,051,Pend Oreille,01528426
+49901161735,1735,Kalispel Reservation,Reservation,Kalispel Indian Community of the Kalispel Reservation,53,WA,063,Spokane,01528426
+49901171750,1750,Karuk Reservation,Reservation,Karuk Tribe,06,CA,093,Siskiyou,02418982
+49901171750,1750,Karuk Reservation,Reservation,Karuk Tribe,06,CA,023,Humboldt,02418982
+49901181770,1770,Kickapoo (KS) Reservation,Reservation,Kickapoo Tribe of Indians of the Kickapoo Reservation,20,KS,085,Jackson,00479833
+49901181770,1770,Kickapoo (KS) Reservation,Reservation,Kickapoo Tribe of Indians of the Kickapoo Reservation,20,KS,005,Atchison,00479833
+49901181770,1770,Kickapoo (KS) Reservation,Reservation,Kickapoo Tribe of Indians of the Kickapoo Reservation,20,KS,013,Brown,00479833
+49901191775,1775,Kickapoo (TX) Reservation,Reservation,Kickapoo Traditional Tribe of Texas,48,TX,323,Maverick,02418986
+49901201785,1785,Klamath Reservation,Reservation,Klamath Tribes,41,OR,035,Klamath,02418990
+49901211800,1800,Kootenai Reservation,Reservation,Kootenai Tribe of Idaho,16,ID,021,Boundary,00394860
+49901221815,1815,Lac Courte Oreilles Reservation,Reservation,Lac Courte Oreilles Band of Lake Superior Chippewa Indians,55,WI,129,Washburn,01577192
+49901221815,1815,Lac Courte Oreilles Reservation,Reservation,Lac Courte Oreilles Band of Lake Superior Chippewa Indians,55,WI,013,Burnett,01577192
+49901221815,1815,Lac Courte Oreilles Reservation,Reservation,Lac Courte Oreilles Band of Lake Superior Chippewa Indians,55,WI,113,Sawyer,01577192
+49901231825,1825,Lac du Flambeau Reservation,Reservation,Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation,55,WI,085,Oneida,01580845
+49901231825,1825,Lac du Flambeau Reservation,Reservation,Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation,55,WI,051,Iron,01580845
+49901231825,1825,Lac du Flambeau Reservation,Reservation,Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation,55,WI,125,Vilas,01580845
+49901241830,1830,Lac Vieux Desert Reservation,Reservation,Lac Vieux Desert Band of Lake Superior Chippewa Indians,26,MI,053,Gogebic,02418993
+49901261850,1850,La Jolla Reservation,Reservation,"La Jolla Band of Luiseno  Indians, California",06,CA,073,San Diego,00271928
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,38,ND,081,Sargent,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,46,SD,029,Codington,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,46,SD,051,Grant,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,46,SD,091,Marshall,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,46,SD,109,Roberts,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,46,SD,037,Day,01934336
+49901271860,1860,Lake Traverse Reservation,Reservation,Sisseton-Wahpeton Oyate of the Lake Traverse Reservation,38,ND,077,Richland,01934336
+49901281880,1880,L'Anse Reservation,Reservation,"Keweenaw Bay Indian Community, Michigan",26,MI,013,Baraga,01616978
+49901281880,1880,L'Anse Reservation,Reservation,"Keweenaw Bay Indian Community, Michigan",26,MI,103,Marquette,01616978
+49901282580,2580,Ontonagon Reservation,Reservation,"Keweenaw Bay Indian Community, Michigan",26,MI,131,Ontonagon,01934329
+49901321940,1940,Leech Lake Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Leech Lake Band)",27,MN,007,Beltrami,00659096
+49901321940,1940,Leech Lake Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Leech Lake Band)",27,MN,057,Hubbard,00659096
+49901321940,1940,Leech Lake Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Leech Lake Band)",27,MN,021,Cass,00659096
+49901321940,1940,Leech Lake Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Leech Lake Band)",27,MN,061,Itasca,00659096
+49901331960,1960,Little River Reservation,Reservation,"Little River Band of Ottawa Indians, Michigan",26,MI,101,Manistee,02418998
+49901331960,1960,Little River Reservation,Reservation,"Little River Band of Ottawa Indians, Michigan",26,MI,105,Mason,02418998
+49901341963,1963,Little Traverse Bay Reservation,Reservation,"Little Traverse Bay Bands of Odawa Indians, Michigan",26,MI,029,Charlevoix,02419000
+49901341963,1963,Little Traverse Bay Reservation,Reservation,"Little Traverse Bay Bands of Odawa Indians, Michigan",26,MI,041,Delta,02419000
+49901341963,1963,Little Traverse Bay Reservation,Reservation,"Little Traverse Bay Bands of Odawa Indians, Michigan",26,MI,047,Emmet,02419000
+49901351970,1970,Lone Pine Reservation,Reservation,Lone Pine Paiute-Shoshone Tribe Reservation,06,CA,027,Inyo,00275865
+49901361995,1995,Los Coyotes Reservation,Reservation,"Los Coyotes Band of Cahuilla and Cupeno Indians, California",06,CA,073,San Diego,00272219
+49901382030,2030,Lower Brule Reservation,Reservation,Lower Brule Sioux Tribe of the Lower Brule Reservation,46,SD,117,Stanley,01267015
+49901382030,2030,Lower Brule Reservation,Reservation,Lower Brule Sioux Tribe of the Lower Brule Reservation,46,SD,085,Lyman,01267015
+49901392040,2040,Lower Elwha Reservation,Reservation,Lower Elwha Tribal Community,53,WA,009,Clallam,01528424
+49901412070,2070,Lummi Reservation,Reservation,Lummi Tribe of the Lummi Reservation,53,WA,073,Whatcom,01511578
+49901442115,2115,Manzanita Reservation,Reservation,Manzanita Band of Diegueno Mission Indians of the Manzanita Reservation,06,CA,073,San Diego,00245463
+49901462145,2145,Mashantucket Pequot Reservation,Reservation,Mashantucket Pequot Indian Tribe,09,CT,011,New London,00212541
+49901472175,2175,Menominee Reservation,Reservation,Menominee Indian Tribe of Wisconsin,55,WI,115,Shawano,01831784
+49901472175,2175,Menominee Reservation,Reservation,Menominee Indian Tribe of Wisconsin,55,WI,078,Menominee,01831784
+49901482190,2190,Mesa Grande Reservation,Reservation,Mesa Grande Band of Diegueno Mission Indians of the Mesa Grande Reservation,06,CA,073,San Diego,02419013
+49901492205,2205,Mescalero Reservation,Reservation,Mescalero Apache Tribe of the Mescalero Reservation,35,NM,027,Lincoln,00924240
+49901492205,2205,Mescalero Reservation,Reservation,Mescalero Apache Tribe of the Mescalero Reservation,35,NM,035,Otero,00924240
+49901502240,2240,Miccosukee Reservation,Reservation,Miccosukee Tribe of Indians,12,FL,051,Hendry,00307483
+49901502240,2240,Miccosukee Reservation,Reservation,Miccosukee Tribe of Indians,12,FL,055,Highlands,00307483
+49901502240,2240,Miccosukee Reservation,Reservation,Miccosukee Tribe of Indians,12,FL,011,Broward,00307483
+49901502240,2240,Miccosukee Reservation,Reservation,Miccosukee Tribe of Indians,12,FL,086,Miami-Dade,00307483
+49901522270,2270,Mille Lacs Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Mille Lacs Band)",27,MN,095,Mille Lacs,02419017
+49901522270,2270,Mille Lacs Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Mille Lacs Band)",27,MN,115,Pine,02419017
+49901522270,2270,Mille Lacs Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Mille Lacs Band)",27,MN,035,Crow Wing,02419017
+49901522270,2270,Mille Lacs Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (Mille Lacs Band)",27,MN,001,Aitkin,02419017
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,007,Attala,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,015,Carroll,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,103,Noxubee,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,099,Neshoba,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,079,Leake,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,123,Scott,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,47,TN,097,Lauderdale,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,059,Jackson,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,067,Jones,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,101,Newton,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,159,Winston,00685014
+49901532300,2300,Mississippi Choctaw Reservation,Reservation,Mississippi Band of Choctaw Indians,28,MS,069,Kemper,00685014
+49901552320,2320,Mohegan Reservation,Reservation,Mohegan Indian Tribe of Indians of Connecticut,09,CT,011,New London,02419022
+49901572360,2360,Morongo Reservation,Reservation,"Morongo Band of Mission Indians, California",06,CA,065,Riverside,00255940
+49901582375,2375,Muckleshoot Reservation,Reservation,Muckleshoot Indian Tribe,53,WA,053,Pierce,01533394
+49901582375,2375,Muckleshoot Reservation,Reservation,Muckleshoot Indian Tribe,53,WA,033,King,01533394
+49901602415,2415,Narragansett Reservation,Reservation,Narragansett Indian Tribe,44,RI,009,Washington,02030138
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,031,McKinley,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,006,Cibola,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",04,AZ,005,Coconino,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,053,Socorro,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",04,AZ,017,Navajo,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,045,San Juan,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,043,Sandoval,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,001,Bernalillo,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",04,AZ,001,Apache,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",35,NM,039,Rio Arriba,00042851
+49901612430,2430,Navajo Nation Reservation,Reservation,"Navajo Nation, Arizona, New Mexico & Utah",49,UT,037,San Juan,00042851
+49901622445,2445,Nez Perce Reservation,Reservation,Nez Perce Tribe,16,ID,061,Lewis,00399588
+49901622445,2445,Nez Perce Reservation,Reservation,Nez Perce Tribe,16,ID,049,Idaho,00399588
+49901622445,2445,Nez Perce Reservation,Reservation,Nez Perce Tribe,16,ID,069,Nez Perce,00399588
+49901622445,2445,Nez Perce Reservation,Reservation,Nez Perce Tribe,16,ID,035,Clearwater,00399588
+49901622445,2445,Nez Perce Reservation,Reservation,Nez Perce Tribe,16,ID,057,Latah,00399588
+49901632460,2460,Nisqually Reservation,Reservation,Nisqually Indian Tribe,53,WA,067,Thurston,01528422
+49901632460,2460,Nisqually Reservation,Reservation,Nisqually Indian Tribe,53,WA,053,Pierce,01528422
+49901642475,2475,Nooksack Reservation,Reservation,Nooksack Indian Tribe,53,WA,073,Whatcom,02419035
+49901672505,2505,Northwestern Shoshone Reservation,Reservation,Northwestern Band of Shoshone Nation,49,UT,003,Box Elder,01455571
+49901682550,2550,Omaha Reservation,Reservation,Omaha Tribe of Nebraska,31,NE,021,Burt,00834985
+49901682550,2550,Omaha Reservation,Reservation,Omaha Tribe of Nebraska,19,IA,133,Monona,00834985
+49901682550,2550,Omaha Reservation,Reservation,Omaha Tribe of Nebraska,31,NE,039,Cuming,00834985
+49901682550,2550,Omaha Reservation,Reservation,Omaha Tribe of Nebraska,31,NE,173,Thurston,00834985
+49901692555,2555,Oneida (NY) Reservation,Reservation,Oneida Indian Nation,36,NY,053,Madison,02419043
+49901692555,2555,Oneida (NY) Reservation,Reservation,Oneida Indian Nation,36,NY,065,Oneida,02419043
+49901702560,2560,Oneida (WI) Reservation,Reservation,Oneida Nation,55,WI,009,Brown,01577191
+49901702560,2560,Oneida (WI) Reservation,Reservation,Oneida Nation,55,WI,087,Outagamie,01577191
+49901802570,2570,Onondaga Nation Reservation,Reservation,Onondaga Nation,36,NY,067,Onondaga,00979312
+49901812850,2850,Pleasant Point Reservation,Reservation,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,029,Washington,00573503
+49901822595,2595,Osage Reservation,Reservation,The Osage Nation,40,OK,113,Osage,01100113
+49901832625,2625,Paiute (UT) Reservation,Reservation,Paiute Indian Tribe,49,UT,041,Sevier,01436088
+49901832625,2625,Paiute (UT) Reservation,Reservation,Paiute Indian Tribe,49,UT,027,Millard,01436088
+49901832625,2625,Paiute (UT) Reservation,Reservation,Paiute Indian Tribe,49,UT,021,Iron,01436088
+49901832625,2625,Paiute (UT) Reservation,Reservation,Paiute Indian Tribe,49,UT,053,Washington,01436088
+49901842635,2635,Pala Reservation,Reservation,Pala Band of Mission Indians,06,CA,073,San Diego,00272502
+49901852680,2680,Pascua Pueblo Yaqui Reservation,Reservation,Pascua Yaqui Tribe of Arizona,04,AZ,019,Pima,02419049
+49901862715,2715,Pauma and Yuima Reservation,Reservation,Pauma Band of Luiseno Mission Indians of the Pauma & Yuima Reservation,06,CA,073,San Diego,00272896
+49901872745,2745,Pechanga Reservation,Reservation,Pechanga Band of Luiseno Mission Indians of the Pechanga Reservation,06,CA,065,Riverside,00272911
+49901882760,2760,Penobscot Reservation,Reservation,Penobscot Tribe,23,ME,021,Piscataquis,01913813
+49901882760,2760,Penobscot Reservation,Reservation,Penobscot Tribe,23,ME,019,Penobscot,01913813
+49901882760,2760,Penobscot Reservation,Reservation,Penobscot Tribe,23,ME,003,Aroostook,01913813
+49901882760,2760,Penobscot Reservation,Reservation,Penobscot Tribe,23,ME,007,Franklin,01913813
+49901912810,2810,Pine Ridge Reservation,Reservation,Oglala Sioux Tribe,31,NE,161,Sheridan,01263144
+49901912810,2810,Pine Ridge Reservation,Reservation,Oglala Sioux Tribe,46,SD,071,Jackson,01263144
+49901912810,2810,Pine Ridge Reservation,Reservation,Oglala Sioux Tribe,46,SD,102,Oglala Lakota,01263144
+49901912810,2810,Pine Ridge Reservation,Reservation,Oglala Sioux Tribe,46,SD,007,Bennett,01263144
+49901932865,2865,Poarch Creek Reservation,Reservation,Poarch Band of Creeks,12,FL,033,Escambia,02419057
+49901932865,2865,Poarch Creek Reservation,Reservation,Poarch Band of Creeks,01,AL,051,Elmore,02419057
+49901932865,2865,Poarch Creek Reservation,Reservation,Poarch Band of Creeks,01,AL,101,Montgomery,02419057
+49901932865,2865,Poarch Creek Reservation,Reservation,Poarch Band of Creeks,01,AL,099,Monroe,02419057
+49901932865,2865,Poarch Creek Reservation,Reservation,Poarch Band of Creeks,01,AL,053,Escambia,02419057
+49901952910,2910,Port Gamble Reservation,Reservation,Port Gamble S'Klallam Tribe,53,WA,035,Kitsap,01507567
+49901962925,2925,Port Madison Reservation,Reservation,Suquamish Indian Tribe of the Port Madison Reservation,53,WA,035,Kitsap,01507571
+49901972980,2980,Prairie Band of Potawatomi Nation Reservation,Reservation,Prairie Band Potawatomi Nation,20,KS,085,Jackson,01934332
+49901993000,3000,Puyallup Reservation,Reservation,Puyallup Tribe of the Puyallup Reservation,53,WA,033,King,01514929
+49901993000,3000,Puyallup Reservation,Reservation,Puyallup Tribe of the Puyallup Reservation,53,WA,053,Pierce,01514929
+49902003010,3010,Pyramid Lake Paiute Reservation,Reservation,Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation,32,NV,019,Lyon,00857503
+49902003010,3010,Pyramid Lake Paiute Reservation,Reservation,Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation,32,NV,029,Storey,00857503
+49902003010,3010,Pyramid Lake Paiute Reservation,Reservation,Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation,32,NV,031,Washoe,00857503
+49902013020,3020,Quartz Valley Reservation,Reservation,Quartz Valley Indian Community of the Quartz Valley Reservation,06,CA,093,Siskiyou,00265103
+49902023030,3030,Quileute Reservation,Reservation,Quileute Tribe of the Quileute Reservation,53,WA,009,Clallam,01511646
+49902033040,3040,Quinault Reservation,Reservation,Quinault Indian Nation,53,WA,027,Grays Harbor,01531838
+49902033040,3040,Quinault Reservation,Reservation,Quinault Indian Nation,53,WA,031,Jefferson,01531838
+49902053085,3085,Red Cliff Reservation,Reservation,Red Cliff Band of Lake Superior Chippewa Indians of Wisconsi,55,WI,007,Bayfield,01577204
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,071,Koochiching,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,125,Red Lake,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,113,Pennington,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,089,Marshall,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,029,Clearwater,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,119,Polk,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,007,Beltrami,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,135,Roseau,01934331
+49902073100,3100,Red Lake Reservation,Reservation,"Red Lake Band of Chippewa Indians, Minnesota",27,MN,077,Lake of the Woods,01934331
+49902113165,3165,Rincon Reservation,Reservation,Rincon Band of Luiseno Mission Indians of the Rincon Reservation,06,CA,073,San Diego,00273286
+49902133205,3205,Rocky Boy's Reservation,Reservation,Chippewa Cree Indians of the Rocky Boy's Reservation,30,MT,041,Hill,00767936
+49902133205,3205,Rocky Boy's Reservation,Reservation,Chippewa Cree Indians of the Rocky Boy's Reservation,30,MT,015,Chouteau,00767936
+49902163250,3250,Round Valley Reservation,Reservation,Round Valley Indian Tribes of the Round Valley Reservation,06,CA,045,Mendocino,00267196
+49902163250,3250,Round Valley Reservation,Reservation,Round Valley Indian Tribes of the Round Valley Reservation,06,CA,105,Trinity,00267196
+49902193285,3285,Sac and Fox Nation Reservation,Reservation,Sac & Fox Nation of Missouri in Kansas and Nebraska,20,KS,013,Brown,00479832
+49902193285,3285,Sac and Fox Nation Reservation,Reservation,Sac & Fox Nation of Missouri in Kansas and Nebraska,31,NE,147,Richardson,00479832
+49902203305,3305,Saint Croix Reservation,Reservation,St. Croix Chippewa Indians of Wisconsin,55,WI,005,Barron,01843172
+49902203305,3305,Saint Croix Reservation,Reservation,St. Croix Chippewa Indians of Wisconsin,55,WI,013,Burnett,01843172
+49902203305,3305,Saint Croix Reservation,Reservation,St. Croix Chippewa Indians of Wisconsin,55,WI,095,Polk,01843172
+49902213320,3320,St. Regis Mohawk Reservation,Reservation,Saint Regis Mohawk Tribe,36,NY,033,Franklin,00979449
+49902223340,3340,Salt River Reservation,Reservation,Salt River Pima-Maricopa Indian Community of the Salt River Reservation,04,AZ,013,Maricopa,00037072
+49902233355,3355,San Carlos Reservation,Reservation,San Carlos Apache Tribe of the San Carlos Reservation,04,AZ,021,Pinal,00024000
+49902233355,3355,San Carlos Reservation,Reservation,San Carlos Apache Tribe of the San Carlos Reservation,04,AZ,009,Graham,00024000
+49902233355,3355,San Carlos Reservation,Reservation,San Carlos Apache Tribe of the San Carlos Reservation,04,AZ,007,Gila,00024000
+49902283445,3445,San Manuel Reservation,Reservation,"San Manuel Band Mission Indians, California",06,CA,071,San Bernardino,00248904
+49902293460,3460,San Pasqual Reservation,Reservation,San Pasqual Band of Diegueno Mission Indians of California,06,CA,073,San Diego,00255933
+49902333525,3525,Santa Rosa Reservation,Reservation,"Santa Rosa Band of Cahuilla Indians, California",06,CA,065,Riverside,01934330
+49902343540,3540,Santa Ynez Reservation,Reservation,Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation,06,CA,083,Santa Barbara,00249132
+49902353550,3550,Santa Ysabel Reservation,Reservation,"Iipay Nation of Santa Ysabel , California",06,CA,073,San Diego,00255932
+49902363565,3565,Santee Reservation,Reservation,"Santee Sioux Nation, Nebraska",31,NE,107,Knox,01884912
+49902383625,3625,Sauk-Suiattle Reservation,Reservation,Sauk-Suiattle Indian Tribe,53,WA,061,Snohomish,02419131
+49902383625,3625,Sauk-Suiattle Reservation,Reservation,Sauk-Suiattle Indian Tribe,53,WA,057,Skagit,02419131
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,041,Delta,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,153,Schoolcraft,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,033,Chippewa,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,097,Mackinac,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,003,Alger,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,103,Marquette,02419132
+49902393635,3635,Sault Saint Marie Reservation,Reservation,"Sault Ste. Marie Tribe of Chippewa Indians, Michigan",26,MI,095,Luce,02419132
+49902443795,3795,Siletz Reservation,Reservation,Confederated Tribes of Siletz Indians of Oregon,41,OR,047,Marion,01155124
+49902443795,3795,Siletz Reservation,Reservation,Confederated Tribes of Siletz Indians of Oregon,41,OR,041,Lincoln,01155124
+49902453825,3825,Skokomish Reservation,Reservation,Skokomish Indian Tribe,53,WA,045,Mason,01525866
+49902463840,3840,Skull Valley Reservation,Reservation,Skull Valley Band of Goshute Indians of Utah,49,UT,045,Tooele,01445643
+49902483870,3870,Soboba Reservation,Reservation,"Soboba Band of Luiseno Indians, California",06,CA,065,Riverside,00249635
+49902503925,3925,Southern Ute Reservation,Reservation,Southern Ute Indian Tribe of the Southern Ute Reservation,08,CO,007,Archuleta,00169585
+49902503925,3925,Southern Ute Reservation,Reservation,Southern Ute Indian Tribe of the Southern Ute Reservation,08,CO,083,Montezuma,00169585
+49902503925,3925,Southern Ute Reservation,Reservation,Southern Ute Indian Tribe of the Southern Ute Reservation,08,CO,067,La Plata,00169585
+49902513930,3930,South Fork Reservation,Reservation,Te-Moak Tribe of Western Shoshone Indians (South Fork Band),32,NV,007,Elko,00861680
+49902523935,3935,Spirit Lake Reservation,Reservation,"Spirit Lake Tribe, North Dakota",38,ND,071,Ramsey,01934326
+49902523935,3935,Spirit Lake Reservation,Reservation,"Spirit Lake Tribe, North Dakota",38,ND,063,Nelson,01934326
+49902523935,3935,Spirit Lake Reservation,Reservation,"Spirit Lake Tribe, North Dakota",38,ND,027,Eddy,01934326
+49902523935,3935,Spirit Lake Reservation,Reservation,"Spirit Lake Tribe, North Dakota",38,ND,005,Benson,01934326
+49902533940,3940,Spokane Reservation,Reservation,Spokane Tribe of the Spokane Reservation,53,WA,065,Stevens,01511576
+49902533940,3940,Spokane Reservation,Reservation,Spokane Tribe of the Spokane Reservation,53,WA,043,Lincoln,01511576
+49902533940,3940,Spokane Reservation,Reservation,Spokane Tribe of the Spokane Reservation,53,WA,063,Spokane,01511576
+49902543955,3955,Squaxin Island Reservation,Reservation,Squaxin Island Tribe of the Squaxin Island Reservation,53,WA,045,Mason,01508671
+49902553970,3970,Standing Rock Reservation,Reservation,Standing Rock Sioux Tribe of North & South Dakota,46,SD,031,Corson,01934335
+49902553970,3970,Standing Rock Reservation,Reservation,Standing Rock Sioux Tribe of North & South Dakota,46,SD,137,Ziebach,01934335
+49902553970,3970,Standing Rock Reservation,Reservation,Standing Rock Sioux Tribe of North & South Dakota,46,SD,041,Dewey,01934335
+49902553970,3970,Standing Rock Reservation,Reservation,Standing Rock Sioux Tribe of North & South Dakota,38,ND,085,Sioux,01934335
+49902584000,4000,Stillaguamish Reservation,Reservation,Stillaguamish Tribe of Indians of Washington,53,WA,061,Snohomish,02419481
+49902614045,4045,Summit Lake Reservation,Reservation,Summit Lake Paiute Tribe of Nevada,32,NV,013,Humboldt,00858261
+49902634075,4075,Swinomish Reservation,Reservation,Swinomish Indian Tribal Community,53,WA,057,Skagit,01528418
+49902644090,4090,Sycuan Reservation,Reservation,Sycuan Band of the Kumeyaay Nation,06,CA,073,San Diego,00273630
+49902654095,4095,Table Bluff Reservation,Reservation,"Wiyot Tribe, California",06,CA,023,Humboldt,01665550
+49902694200,4200,Tohono O'odham Nation Reservation,Reservation,Tohono O'odham Nation of Arizona,04,AZ,013,Maricopa,00023763
+49902694200,4200,Tohono O'odham Nation Reservation,Reservation,Tohono O'odham Nation of Arizona,04,AZ,021,Pinal,00023763
+49902694200,4200,Tohono O'odham Nation Reservation,Reservation,Tohono O'odham Nation of Arizona,04,AZ,019,Pima,00023763
+49902704225,4225,Tonawanda Reservation,Reservation,Tonawanda Band of Seneca,36,NY,037,Genesee,00979554
+49902704225,4225,Tonawanda Reservation,Reservation,Tonawanda Band of Seneca,36,NY,029,Erie,00979554
+49902704225,4225,Tonawanda Reservation,Reservation,Tonawanda Band of Seneca,36,NY,063,Niagara,00979554
+49902714235,4235,Tonto Apache Reservation,Reservation,Tonto Apache Tribe of Arizona,04,AZ,007,Gila,00032748
+49902724255,4255,Torres-Martinez Reservation,Reservation,"Torres Martinez Desert Cahuilla Indians, California",06,CA,025,Imperial,00255924
+49902724255,4255,Torres-Martinez Reservation,Reservation,"Torres Martinez Desert Cahuilla Indians, California",06,CA,065,Riverside,00255924
+49902744290,4290,Tulalip Reservation,Reservation,Tulalip Tribes of Washington,53,WA,061,Snohomish,01511575
+49902754300,4300,Tule River Reservation,Reservation,Tule River Indian Tribe of the Tule River Reservation,06,CA,107,Tulare,00275158
+49902764315,4315,Tunica-Biloxi Reservation,Reservation,Tunica-Biloxi Indian Tribe,22,LA,009,Avoyelles,02419503
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,079,Rolette,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,105,Valley,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,019,Daniels,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,013,Burke,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,091,Sheridan,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,061,Mountrail,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,46,SD,105,Perkins,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,023,Divide,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,055,McLean,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,019,Cavalier,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,085,Roosevelt,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,015,Chouteau,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,011,Carter,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,105,Williams,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,055,McCone,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,005,Blaine,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,38,ND,049,McHenry,01934334
+49902784345,4345,Turtle Mountain Reservation,Reservation,Turtle Mountain Band of Chippewa Indians of North Dakota,30,MT,071,Phillips,01934334
+49902794360,4360,Tuscarora Nation Reservation,Reservation,Tuscarora Nation,36,NY,063,Niagara,00979564
+49902804375,4375,Twenty-Nine Palms Reservation,Reservation,Twenty-Nine Palms Band of Mission Indians of California,06,CA,065,Riverside,00250737
+49902804375,4375,Twenty-Nine Palms Reservation,Reservation,Twenty-Nine Palms Band of Mission Indians of California,06,CA,071,San Bernardino,00250737
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,047,Uintah,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,019,Grand,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,051,Wasatch,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,013,Duchesne,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,049,Utah,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,015,Emery,01448012
+49902814390,4390,Uintah and Ouray Reservation,Reservation,"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",49,UT,007,Carbon,01448012
+49902844455,4455,Upper Skagit Reservation,Reservation,Upper Skagit Indian Tribe,53,WA,057,Skagit,02419510
+49902854470,4470,Ute Mountain Reservation,Reservation,Ute Mountain Ute Tribe,49,UT,037,San Juan,00169579
+49902854470,4470,Ute Mountain Reservation,Reservation,Ute Mountain Ute Tribe,08,CO,067,La Plata,00169579
+49902854470,4470,Ute Mountain Reservation,Reservation,Ute Mountain Ute Tribe,35,NM,045,San Juan,00169579
+49902854470,4470,Ute Mountain Reservation,Reservation,Ute Mountain Ute Tribe,08,CO,083,Montezuma,00169579
+49902864515,4515,Walker River Reservation,Reservation,Walker River Paiute Tribe of the Walker River Reservation,32,NV,001,Churchill,00857504
+49902864515,4515,Walker River Reservation,Reservation,Walker River Paiute Tribe of the Walker River Reservation,32,NV,021,Mineral,00857504
+49902864515,4515,Walker River Reservation,Reservation,Walker River Paiute Tribe of the Walker River Reservation,32,NV,019,Lyon,00857504
+49902894595,4595,White Earth Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (White Earth Band)",27,MN,087,Mahnomen,01934333
+49902894595,4595,White Earth Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (White Earth Band)",27,MN,005,Becker,01934333
+49902894595,4595,White Earth Reservation,Reservation,"Minnesota Chippewa Tribe, Minnesota (White Earth Band)",27,MN,029,Clearwater,01934333
+49902904610,4610,Wind River Reservation,Reservation,Eastern Shoshone Tribe of the Wind River Reservation,56,WY,017,Hot Springs,01597068
+49902904610,4610,Wind River Reservation,Reservation,Eastern Shoshone Tribe of the Wind River Reservation,56,WY,013,Fremont,01597068
+49902914610,4610,Wind River Reservation,Reservation,"Arapahoe Tribe of the Wind River Reservation, Wyoming",56,WY,013,Fremont,01597068
+49902914610,4610,Wind River Reservation,Reservation,"Arapahoe Tribe of the Wind River Reservation, Wyoming",56,WY,017,Hot Springs,01597068
+49902924625,4625,Winnebago Reservation,Reservation,Winnebago Tribe of Nebraska,31,NE,051,Dixon,00834982
+49902924625,4625,Winnebago Reservation,Reservation,Winnebago Tribe of Nebraska,31,NE,173,Thurston,00834982
+49902924625,4625,Winnebago Reservation,Reservation,Winnebago Tribe of Nebraska,19,IA,193,Woodbury,00834982
+49902924625,4625,Winnebago Reservation,Reservation,Winnebago Tribe of Nebraska,31,NE,021,Burt,00834982
+49902954700,4700,Yankton Reservation,Reservation,Yankton Sioux Tribe of South Dakota,46,SD,023,Charles Mix,01891160
+49902964708,4708,Yavapai-Apache Nation Reservation,Reservation,Yavapai-Apache Nation of the Camp Verde Indian Reservation,04,AZ,025,Yavapai,00027214
+49902974710,4710,Yavapai-Prescott Reservation,Reservation,Yavapai-Prescott Indian Tribe,04,AZ,025,Yavapai,00036443
+49902984740,4740,Yomba Reservation,Reservation,"Yomba Shoshone Tribe of the Yomba Reservation, Nevada",32,NV,023,Nye,00862119
+49903004760,4760,Yurok Reservation,Reservation,"Yurok Tribe of the Yurok Reservation, California",06,CA,023,Humboldt,02419530
+49903004760,4760,Yurok Reservation,Reservation,"Yurok Tribe of the Yurok Reservation, California",06,CA,015,Del Norte,02419530
+49903024785,4785,Zuni Reservation,Reservation,"Zuni Tribe of the Zuni Reservation, New Mexico",35,NM,006,Cibola,01934346
+49903024785,4785,Zuni Reservation,Reservation,"Zuni Tribe of the Zuni Reservation, New Mexico",35,NM,003,Catron,01934346
+49903024785,4785,Zuni Reservation,Reservation,"Zuni Tribe of the Zuni Reservation, New Mexico",35,NM,031,McKinley,01934346
+49903024785,4785,Zuni Reservation,Reservation,"Zuni Tribe of the Zuni Reservation, New Mexico",04,AZ,001,Apache,01934346
+49905971690,1690,Jena Band of Choctaw Reservation,Reservation,Jena Band of Choctaw Indians,22,LA,043,Grant,02453210
+49905971690,1690,Jena Band of Choctaw Reservation,Reservation,Jena Band of Choctaw Indians,22,LA,059,LaSalle,02453210
+49906002890,2890,Pokagon Reservation,Reservation,"Pokagon Band of Potawatomi Indians, Michigan and Indiana",26,MI,021,Berrien,02419058
+49906002890,2890,Pokagon Reservation,Reservation,"Pokagon Band of Potawatomi Indians, Michigan and Indiana",26,MI,027,Cass,02419058
+49906002890,2890,Pokagon Reservation,Reservation,"Pokagon Band of Potawatomi Indians, Michigan and Indiana",18,IN,141,St. Joseph,02419058
+49906002890,2890,Pokagon Reservation,Reservation,"Pokagon Band of Potawatomi Indians, Michigan and Indiana",26,MI,159,Van Buren,02419058
+49906079260,9260,Pamunkey (state) Reservation,Reservation,Pamunkey Indian Tribe,51,VA,101,King William,01472036
+49906129370,9370,Shinnecock (state) Reservation,Reservation,Shinnecock Indian Nation,36,NY,103,Suffolk,00979494
+49906380820,0820,Cowlitz Trust Land,Reservation,Cowlitz Indian Tribe,53,WA,011,Clark,02772245
+49906412150,2150,Match-e-be-nash-she-wish Band of Pottawatomi Reservation,Reservation,Match-e-be-nash-she-wish Band of Pottawatomi Indians,26,MI,005,Allegan,02547776
+49906443860,3860,Snoqualmie Reservation,Reservation,Snoqualmie Indian Tribe,53,WA,033,King,02419473
+49906614180,4180,Timbi-Sha Shoshone Reservation,Reservation,Death Valley Timbi-Sha Shoshone Tribe,32,NV,009,Esmeralda,02419492
+49906614180,4180,Timbi-Sha Shoshone Reservation,Reservation,Death Valley Timbi-Sha Shoshone Tribe,06,CA,027,Inyo,02419492
+49906614180,4180,Timbi-Sha Shoshone Reservation,Reservation,Death Valley Timbi-Sha Shoshone Tribe,32,NV,023,Nye,02419492
+49900060110,0110,Annette Island Reserve,Reserve,"Metlakatla Indian Community, Annette Island Reserve",02,AK,198,Prince of Wales-Hyder,01934114
+49902183280,3280,Sac and Fox/Meskwaki Settlement,Settlement,Sac & Fox Tribe of the Mississippi in Iowa,19,IA,171,Tama,00463420
+49905958100,8100,Cayuga Nation TDSA,TDSA,Cayuga Nation,36,NY,011,Cayuga,02418802
+49905958100,8100,Cayuga Nation TDSA,TDSA,Cayuga Nation,36,NY,099,Seneca,02418802
+49905968300,8300,Ione Band of Miwok TDSA,TDSA,Ione Band of Miwok Indians of California,06,CA,005,Amador,02418631
+49905998450,8450,Mechoopda TDSA,TDSA,"Mechoopda Indian Tribe of Chico Rancheria, California",06,CA,007,Butte,02418703
+49906018750,8750,Samish TDSA,TDSA,Samish Indian Nation,53,WA,057,Skagit,02419206
+49906018750,8750,Samish TDSA,TDSA,Samish Indian Nation,53,WA,055,San Juan,02419206
+49906188150,8150,Chickahominy TDSA,TDSA,Chickahominy Indian Tribe,51,VA,036,Charles City,02418815
+49906218160,8160,Eastern Chickahominy TDSA,TDSA,Chickahominy Indians Eastern Division,51,VA,127,New Kent,02418562
+49909528700,8700,Rappahannock TDSA,TDSA,Rappahannock Tribe,51,VA,057,Essex,02813263
+49909528700,8700,Rappahannock TDSA,TDSA,Rappahannock Tribe,51,VA,097,King and Queen,02813263
+49900152835,2835,Pit River Trust Land,Trust Land,"Pit River Tribe, California",06,CA,089,Shasta,02419056
+49900160690,0690,Coconut Creek Trust Land,Trust Land,Seminole Tribe of Florida,12,FL,011,Broward,02418876
+49900163665,3665,Seminole (FL) Trust Land,Trust Land,Seminole Tribe of Florida,12,FL,011,Broward,02419138
+49900242285,2285,Minnesota Chippewa Trust Land,Trust Land,Minnesota Chippewa Tribe,27,MN,111,Otter Tail,02419018
+49900242285,2285,Minnesota Chippewa Trust Land,Trust Land,Minnesota Chippewa Tribe,27,MN,021,Cass,02419018
+49900242285,2285,Minnesota Chippewa Trust Land,Trust Land,Minnesota Chippewa Tribe,27,MN,137,St. Louis,02419018
+49900242285,2285,Minnesota Chippewa Trust Land,Trust Land,Minnesota Chippewa Tribe,27,MN,005,Becker,02419018
+49900334560,4560,Washoe Ranches,Trust Land,Washoe Tribe,32,NV,510,Carson City,02419516
+49900334560,4560,Washoe Ranches,Trust Land,Washoe Tribe,32,NV,019,Lyon,02419516
+49900334560,4560,Washoe Ranches,Trust Land,Washoe Tribe,06,CA,003,Alpine,02419516
+49900334560,4560,Washoe Ranches,Trust Land,Washoe Tribe,32,NV,005,Douglas,02419516
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,007,Franklin,02419052
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,029,Washington,02419052
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,019,Penobscot,02419052
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,017,Oxford,02419052
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,025,Somerset,02419052
+49901062695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Indian Township Reservation,23,ME,009,Hancock,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,019,Penobscot,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,025,Somerset,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,009,Hancock,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,029,Washington,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,017,Oxford,02419052
+49901812695,2695,Passamaquoddy Trust Land,Trust Land,Passamaquoddy Tribe - Pleasant Point Reservation,23,ME,007,Franklin,02419052
+49902143220,3220,Rohnerville Rancheria,Trust Land,"Bear River Band of the Rohnerville Rancheria, California",06,CA,023,Humboldt,00231831
+49902874530,4530,Wampanoag-Aquinnah,Trust Land,Wampanoag Tribe of Gay Head (Aquinnah),25,MA,007,Dukes,02419514
+49905940115,0115,Aroostook Band of Micmac Trust Land,Trust Land,Aroostook Band of Micmacs,23,ME,003,Aroostook,02562463
+49906602900,2900,Ponca (NE) Trust Land,Trust Land,Ponca Tribe of Nebraska,31,NE,107,Knox,02419061
+49906602900,2900,Ponca (NE) Trust Land,Trust Land,Ponca Tribe of Nebraska,31,NE,109,Lancaster,02419061
+49906602900,2900,Ponca (NE) Trust Land,Trust Land,Ponca Tribe of Nebraska,19,IA,155,Pottawattamie,02419061
+49909332147,2147,Mashpee Wampanoag Trust Land,Trust Land,Mashpee Wampanoag Tribe,25,MA,001,Barnstable,02786720
+49909332147,2147,Mashpee Wampanoag Trust Land,Trust Land,Mashpee Wampanoag Tribe,25,MA,005,Bristol,02786720
+49900370560,0560,Celilo Village,Village,Confederated Tribes of the Umatilla Indian Reservation,41,OR,065,Wasco,02419333
+49900380560,0560,Celilo Village,Village,Confederated Tribes of the Warm Springs Reservation of Orego,41,OR,065,Wasco,02419333
+49900390560,0560,Celilo Village,Village,Confederated Tribes and Bands of the Yakama Nation,41,OR,065,Wasco,02419333
+49902043070,3070,Ramona Village,Village,"Ramona Band of Cahuilla, California",06,CA,065,Riverside,00273181
+49902272510,2510,"Ohkay Owingeh, New Mexico",,Ohkay Owingeh,35,NM,039,Rio Arriba,01934344
