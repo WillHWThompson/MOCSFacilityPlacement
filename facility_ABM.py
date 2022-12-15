@@ -19,6 +19,7 @@ from sklearn.neighbors import BallTree, KDTree
 from matplotlib import pyplot as plt
 
 BANNED_STATES = ['Arkansas','Alabama','Idaho','Kentucky','Louisiana','Kentucky','Mississippi','Missouri','Oklahoma','South Dakota','Tenesee','Texas','West Virginia','Wisconsin']
+BANNED_STATES_UPPER = [x.upper() for x in BANNED_STATES]
 
 """
 
@@ -255,7 +256,7 @@ def pres_vote_weight(min_portion=.4, legal_only=False):
     pres = pres[~pres['state'].isin(['ALASKA','HAWAII'])]
 
     if legal_only:
-        pres = pres[~pres['state'].isin(BANNED_STATES)]
+        pres = pres[~pres['state'].isin(BANNED_STATES_UPPER)]
     dems = pres[pres.party == 'DEMOCRAT']
     dems['portion'] = dems['candidatevotes'] / dems['totalvotes']
     dems.set_index(['county_fips'], inplace=True)
